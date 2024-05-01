@@ -1,6 +1,50 @@
 :root {
     --white: #fff;
-    --black: #000;
+    --offWhite: #F7F7F7;
+    --black: #4A5469;
     --primary: #1A3E39;
     --secondary: #FFFF34;
+}
+
+@font-face {
+    font-family: Nivoma Regular;
+    src: url("../src/components/assets/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nivoma Bold;
+    src: url("../src/components/assets/fonts/Raleway/static/Raleway-Bold.ttf");
+}
+
+@font-face {
+    font-family: Nivoma Sans Regular;
+    src: url("../src/components/assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nivoma Just Regular;
+    src: url("../src/components/assets/fonts/Just_Sans/JUST-Sans-Regular.otf");
+}
+
+p,
+li {
+    font-family: Nivoma Just Regular;
+    color: var(--white);
+}
+
+h1,
+h2 {
+    font-family: Nivoma Regular;
+    color: var(--white);
+    /* font-size: clamp(1rem, -2.8281rem + 12.25vw, 4.0625rem); */
+    font-size: clamp(1rem, -1.5rem + 8vw, 3rem);
+}
+
+strong {
+    font-family: Nivoma Bold;
+}
+
+button {
+    font-family: Nivoma Just Regular;
+    font-weight: 400;
 }
