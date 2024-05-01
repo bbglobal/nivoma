@@ -1,11 +1,12 @@
-import { Header, Home } from './components';
+import { Header, Footer, Impressum, DataProtection} from './components';
+import { Routes, Route } from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
+    <Header />
+    <Footer />
     </>
   );
 }

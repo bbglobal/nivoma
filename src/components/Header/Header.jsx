@@ -1,5 +1,5 @@
 import "./header.css"
-import Logo from "./logo.jpg"
+import Logo from "../assets/img/logo.png"
 import { NavLink } from "react-bootstrap";
 import { useState } from "react";
 
