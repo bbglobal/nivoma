@@ -5,10 +5,17 @@
   
   ul {
     color: white !important;
+    list-style: none;
   }
-
+  
   ul a{
     color: white !important;
+    text-decoration: none;
+  }
+
+  a {
+    color: var(--white);
+    text-decoration: none;
   }
 
   h5 {
