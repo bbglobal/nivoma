@@ -41,9 +41,15 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
-                <button className="d-block" >
-                    Cart
-                </button>
+                <div className="d-flex align-items-center">
+                    <button className="d-block btn-nivoma mx-4">
+                        Kontakt
+                    </button>
+                    <select name="lang" className="form-select lang-selector">
+                        <option value="DE" selected>DE</option>
+                        <option value="EN">EN</option>
+                    </select>
+                </div>
             </header>
 
             <header id="mob-menu">
@@ -59,22 +65,28 @@ const Header = () => {
             <nav id="mob-main" className={`${isHeader ? 'left-0' : 'left-full'}`}>
                 <ul className="d-flex flex-column align-items-left">
                     <li>
-                        <NavLink to={`/albums`}>Albums</NavLink>
+                        <NavLink to={`/albums`}>Über uns</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`about`}>About</NavLink>
+                        <NavLink to={`/albums`}>Referenzen</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/projects`}>Projects</NavLink>
+                        <NavLink to={`/albums`}>Verpachtung</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/shop-all`}>Shop All</NavLink>
+                        <NavLink to={`about`}>PV-Investment</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={`/projects`}>Karriere</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={`/shop-all`}>Wissen</NavLink>
                     </li>
                 </ul>
                 <button className="d-block" onClick={() => {
                     setIsHeader(!isHeader);
                 }}>
-                    Cart
+                    Kontakt
                 </button>
             </nav>
         </>
