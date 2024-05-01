@@ -104,12 +104,29 @@
     padding: 5rem;
 }
 
+.slider-txt {
+    position: absolute;
+    background: var(--primary);
+    padding: 7rem;
+    left: -100%;
+    top: 0;
+    transition: all ease .5s;
+    z-index: 0;
+    color: var(--white) !important;
+}
+
+.box-wrapper:hover+.slider-txt, .slider-txt:hover {
+    left: 0;
+}
+
 .section-four p {
     color: var(--white);
     text-align: left;
 }
 
 .sec-four-box-wrapper {
+    overflow: hidden;
+    position: relative;
     color: var(--white);
     width: 535px;
     height: 331px;
