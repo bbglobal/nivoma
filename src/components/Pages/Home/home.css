@@ -1,0 +1,296 @@
+.hero-wrapper {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.hero-video {
+    width: 100%;
+}
+
+.hero-txt {
+    position: absolute;
+    padding: 5rem;
+    background: var(--primary);
+    opacity: 0.96;
+    color: var(--white);
+    top: 20%;
+    left: 10%;
+}
+
+.hero-txt h1,
+.hero-txt p {
+    text-align: left !important;
+    color: var(--white);
+}
+
+.btn-nivoma-yellow {
+    height: 72px;
+    box-shadow: 0px 3px 6px var(--black);
+    background: var(--secondary);
+    color: var(--black);
+    border-radius: 2rem;
+    padding: 0 5rem;
+}
+
+.btn-outline-nivoma {
+    height: 72px;
+    flex-shrink: 0;
+    box-shadow: 0px 3px 6px var(--black);
+    background: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 2rem;
+    padding: 0 5rem;
+}
+
+.sec-two-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.sec-two-img-wrapper img {
+    width: 666px;
+}
+
+.sec-two-txt-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-two h2,
+.section-two li,
+.section-two p {
+    color: var(--black);
+}
+
+.section-two li {
+    margin: 1rem 0;
+}
+
+.section-three h2,
+.section-three p {
+    color: var(--white);
+}
+
+.section-three {
+    background: var(--primary);
+    position: relative;
+}
+
+.sec-three-bg {
+    position: absolute;
+    bottom: 0;
+    left: -120px;
+    width: 300px;
+    height: 300px;
+}
+
+.sec-three-txt-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.section-four {
+    padding: 5rem;
+}
+
+.section-four p {
+    color: var(--white);
+    text-align: left;
+}
+
+.sec-four-box-wrapper {
+    color: var(--white);
+    width: 535px;
+    height: 331px;
+    padding: 5rem;
+    cursor: pointer;
+}
+
+.sec-four-box-wrapper {
+    background: var(--primary);
+    background: linear-gradient(180deg, #193D38 0%, #173732 100%);
+}
+
+.sec-four-box-wrapper h2,
+.sec-four-box-wrapper p {
+    text-align: center;
+    color: var(--white);
+}
+
+.odd h2,
+.odd p {
+    text-align: center;
+    color: var(--primary);
+}
+
+.odd {
+    background: var(--secondary) !important;
+}
+
+.box-font {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.sec-four-txt-wrapper {
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.sec-four-txt-wrapper p {
+    color: var(--black);
+}
+
+.section-five {
+    background: var(--primary);
+}
+
+.divider {
+    width: 106px;
+    height: 4px;
+    background: var(--white);
+}
+
+.sec-five-txt-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem;
+    color: var(--white);
+}
+
+.sec-five-img-wrapper {
+    background-image: url("../Home/img/review-girl.png");
+    height: 991px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sec-five-box-wrapper {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.mySwiperReviews {
+    background: linear-gradient(180deg, rgba(25, 61, 56, 0.00) 0%, #193D38 100%);
+    padding: 2rem 10rem !important;
+}
+
+.sec-five-box-wrapper p {
+    color: var(--black);
+}
+
+.sec-five-txt-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem;
+    color: var(--white);
+}
+
+.btn-outline {
+
+    padding: 0 1rem;
+    height: 58px;
+    flex-shrink: 0;
+    box-shadow: 0px 3px 6px var(--black);
+    color: var(--primary);
+    background: var(--offWhite);
+    border-radius: 2rem;
+    transition: all ease .5s;
+    border: 1px solid var(--offWhite);
+}
+
+.testimonial {
+    padding: 0 10rem !important;
+}
+
+.one {
+    background-image: url("../Home/img/prof2.png");
+}
+
+.two {
+    background-image: url("../Home/img/prof1.png");
+}
+
+.sec-six-tes-wrapper {
+    background: rgba(237, 237, 237, 0.37);
+    height: 618px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sec-six-tes-footer {
+    background: var(--offWhite);
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.section-seven {
+    height: 621.1px;
+    ;
+    background: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.section-seven h2,
+.section-seven p {
+    color: var(--primary);
+}
+
+.sec-eight-txt-wrapper {
+    padding: 5rem;
+}
+
+.section-eight h3 {
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.section-eight h4 {
+    font-size: 23px;
+    font-weight: 400;
+    color: var(--black);
+    opacity: .5;
+}
+
+.section-eight .active {
+    color: var(--black);
+    opacity: 1;
+}
+
+.sec-eight-acc-wrapper {
+    padding: 8rem 5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary) !important;
+    background-color: var(--bs-accordion-border-color) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: var(--primary) !important;
+}
