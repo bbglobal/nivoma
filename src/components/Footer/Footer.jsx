@@ -1,39 +1,12 @@
-
-import { VscCallIncoming } from "react-icons/vsc";
-import { MdEmail } from "react-icons/md";
-
-
 import Logo from "../assets/img/logofooter.png"
-
-import React, { useState } from 'react';
-import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import youtube from "../assets/icons/youtube-round-svgrepo-com.svg"
+import Ln from "../assets/icons/in-round-svgrepo-com.svg"
+import Insta from "../assets/icons/instagram-svgrepo-com.svg"
+import X from "../assets/icons/x-round-svgrepo-com.svg"
+import Mail from "../assets/icons/mail-round-svgrepo-com.svg"
+import Call from "../assets/icons/call-round-svgrepo-com.svg"
 import { Container, Row, Col } from 'react-bootstrap';
-import "./footer.css"; 
-
-const SocialIcons = () => {
-  const [clicked, setClicked] = useState(false);
-
-  const handleClick = () => {
-    setClicked(!clicked);
-  };
-
-  return (
-    <div className="social-icons">
-      <a href="#" 
-         className={clicked ? 'clicked' : ''}
-         onClick={handleClick}><FaFacebook style={{ fontSize: '24px', color: 'white' }} />
-      </a>
-      <a href="#" 
-         className={clicked ? 'clicked' : ''}
-         onClick={handleClick}><FaInstagram style={{ fontSize: '24px', color: 'white' }} />
-      </a>
-      <a href="#" 
-         className={clicked ? 'clicked' : ''}
-         onClick={handleClick}><FaWhatsapp style={{ fontSize: '24px', color: 'white' }} />
-      </a>
-    </div>
-  );
-};
+import "./footer.css";
 
 
 const Footer = () => {
@@ -43,19 +16,26 @@ const Footer = () => {
         <Row>
           {/* Top three columns */}
           <Col md={4}>
-           
+
             <img src={Logo} alt="logo.png" />
-            <p>
-              Als führender Vermittler in der Solarbranche 
-              setzen wir bei Nivoma alles daran, unseren Kunden 
-              den Zugang zu sauberer Energie zu erleichtern. 
-              Unsere Expertise in der Vermittlung von 
-              Solaranlagen macht uns zum bevorzugten Partner 
-              für diejenigen, die innovative Lösungen im Bereich 
+            <p className="my-5">
+              Als führender Vermittler in der Solarbranche
+              setzen wir bei Nivoma alles daran, unseren Kunden
+              den Zugang zu sauberer Energie zu erleichtern.
+              Unsere Expertise in der Vermittlung von
+              Solaranlagen macht uns zum bevorzugten Partner
+              für diejenigen, die innovative Lösungen im Bereich
               erneuerbarer Energien suchen.
             </p>
-            {/* Social media links */}
-            <SocialIcons />
+
+            <div className="socials">
+              <img src={youtube} alt="icon" className="ms-3 my-3" />
+              <img src={Ln} alt="icon" className="ms-3 my-3" />
+              <img src={Insta} alt="icon" className="ms-3 my-3" />
+              <img src={X} alt="icon" className="ms-3 my-3" />
+            </div>
+
+
           </Col>
           <Col md={4}>
             <h5>Unternehmen</h5>
@@ -78,7 +58,7 @@ const Footer = () => {
           </Col>
         </Row>
         {/* <hr className="my-4" /> */}
-      
+
         <Row>
           {/* Bottom four columns */}
           <Col md={3}>
@@ -101,11 +81,26 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md={3}>
-           
-            
-            <VscCallIncoming />
-      
-            <MdEmail />
+
+            <div className="socials">
+              <div className="d-flex align-items-center">
+                <img src={Call} alt="icon" className="mx-3 my-3" />
+                <div>
+                  <p>Telefon</p>
+                  <a href="tel:06222 6840592">06222 6840592</a>
+                </div>
+              </div>
+              <div className="d-flex align-items-center">
+                <img src={Mail} alt="icon" className="mx-3 my-3" />
+                <div>
+                  <p>E-Mail</p>
+                  <a href="mailto:info@nivoma-solar.de">info@nivoma-solar.de</a>
+                </div>
+              </div>
+              <div className="d-flex align-items-center ms-3 mt-3">
+                <button className="btn-outline-nivoma">Kostenlose Beratung</button>
+              </div>
+            </div>
 
           </Col>
 

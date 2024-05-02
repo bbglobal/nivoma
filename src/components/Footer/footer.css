@@ -5,10 +5,19 @@
   
   ul {
     color: white !important;
+    list-style: none;   
+     padding-left: 0;
   }
-
+  
+  
   ul a{
     color: white !important;
+    text-decoration: none;
+  }
+
+  a {
+    color: var(--white);
+    text-decoration: none;
   }
 
   h5 {

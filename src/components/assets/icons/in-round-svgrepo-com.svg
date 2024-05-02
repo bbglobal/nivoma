@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52.885" height="52.885" viewBox="0 0 52.885 52.885">
+  <defs>
+    <filter id="Path_79263">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_79264">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Path_79265">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="youtube-round-svgrepo-com" transform="translate(143 -145)">
+    <path id="Path_79261" data-name="Path 79261" d="M78.9,362.064l8.656-5.082L78.9,351.9Z" transform="translate(-198.98 -185.529)" fill="#fff"/>
+    <path id="Path_79262" data-name="Path 79262" d="M-116.558,145A26.44,26.44,0,0,0-143,171.442a26.44,26.44,0,0,0,26.442,26.442,26.44,26.44,0,0,0,26.442-26.442A26.44,26.44,0,0,0-116.558,145Zm13.221,31.173h0c0,4.555-4.555,4.555-4.555,4.555h-17.332c-4.555,0-4.555-4.555-4.555-4.555v-9.451c0-4.555,4.555-4.555,4.555-4.555h17.332c4.555,0,4.555,4.555,4.555,4.555Z" fill="#fff"/>
+    <circle id="Ellipse_22" data-name="Ellipse 22" cx="24" cy="24" r="24" transform="translate(-141.002 147.442)" fill="#fff"/>
+    <g id="linked-in-logo-of-two-letters-svgrepo-com" transform="translate(-126.879 136.29)">
+      <g id="Group_15752" data-name="Group 15752" transform="translate(0 23.916)">
+        <g data-type="innerShadowGroup">
+          <path id="Path_79263-2" data-name="Path 79263" d="M.723,192.941H3.616a.723.723,0,0,0,.723-.723V179.573a.723.723,0,0,0-.723-.723H.723a.723.723,0,0,0-.723.723v12.646A.723.723,0,0,0,.723,192.941Z" transform="translate(0 -172.612)" fill="#193d38"/>
+          <g transform="matrix(1, 0, 0, 1, -16.12, -15.21)" filter="url(#Path_79263)">
+            <path id="Path_79263-3" data-name="Path 79263" d="M.723,192.941H3.616a.723.723,0,0,0,.723-.723V179.573a.723.723,0,0,0-.723-.723H.723a.723.723,0,0,0-.723.723v12.646A.723.723,0,0,0,.723,192.941Z" transform="translate(16.12 -157.41)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_79264-2" data-name="Path 79264" d="M.723,27.93H3.616a.723.723,0,0,0,.723-.723V24.639a.723.723,0,0,0-.723-.723H.723A.723.723,0,0,0,0,24.639v2.569A.723.723,0,0,0,.723,27.93Z" transform="translate(0 -23.916)" fill="#193d38"/>
+          <g transform="matrix(1, 0, 0, 1, -16.12, -15.21)" filter="url(#Path_79264)">
+            <path id="Path_79264-3" data-name="Path 79264" d="M.723,27.93H3.616a.723.723,0,0,0,.723-.723V24.639a.723.723,0,0,0-.723-.723H.723A.723.723,0,0,0,0,24.639v2.569A.723.723,0,0,0,.723,27.93Z" transform="translate(16.12 -8.71)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <path id="Path_79265-2" data-name="Path 79265" d="M195.4,171.482a4.4,4.4,0,0,0-1.8-1.32,6.512,6.512,0,0,0-2.625-.517,6.428,6.428,0,0,0-4.94,2.225c-.269.3-.464.231-.464-.169v-.963a.723.723,0,0,0-.723-.723h-2.584a.723.723,0,0,0-.723.723v12.646a.723.723,0,0,0,.723.723h2.893a.723.723,0,0,0,.723-.723v-4.4a14.149,14.149,0,0,1,.332-3.767,3.111,3.111,0,0,1,1.227-1.637,3.479,3.479,0,0,1,2.023-.618,2.581,2.581,0,0,1,1.505.432,2.409,2.409,0,0,1,.9,1.212,12.93,12.93,0,0,1,.278,3.435v5.34a.723.723,0,0,0,.723.723h2.893a.723.723,0,0,0,.723-.723v-7.161a13.562,13.562,0,0,0-.239-2.918A4.779,4.779,0,0,0,195.4,171.482Z" transform="translate(-174.235 -163.778)" fill="#193d38"/>
+          <g transform="matrix(1, 0, 0, 1, -16.12, -15.21)" filter="url(#Path_79265)">
+            <path id="Path_79265-3" data-name="Path 79265" d="M195.4,171.482a4.4,4.4,0,0,0-1.8-1.32,6.512,6.512,0,0,0-2.625-.517,6.428,6.428,0,0,0-4.94,2.225c-.269.3-.464.231-.464-.169v-.963a.723.723,0,0,0-.723-.723h-2.584a.723.723,0,0,0-.723.723v12.646a.723.723,0,0,0,.723.723h2.893a.723.723,0,0,0,.723-.723v-4.4a14.149,14.149,0,0,1,.332-3.767,3.111,3.111,0,0,1,1.227-1.637,3.479,3.479,0,0,1,2.023-.618,2.581,2.581,0,0,1,1.505.432,2.409,2.409,0,0,1,.9,1.212,12.93,12.93,0,0,1,.278,3.435v5.34a.723.723,0,0,0,.723.723h2.893a.723.723,0,0,0,.723-.723v-7.161a13.562,13.562,0,0,0-.239-2.918A4.779,4.779,0,0,0,195.4,171.482Z" transform="translate(-158.11 -148.57)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
