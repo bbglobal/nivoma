@@ -7,10 +7,10 @@ function App() {
   return (
     <>
     <Header />
-      <Routes>
+      {/* <Routes>
         <Route path='/impressum' element={<Impressum />}></Route>
         <Route path='/data-protection' element={<DataProtection />}></Route>
-      </Routes>
+      </Routes> */}
     <Footer />
     </>
   );
