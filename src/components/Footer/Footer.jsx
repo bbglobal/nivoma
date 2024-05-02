@@ -15,7 +15,7 @@ const Footer = () => {
       <Container>
         <Row>
           {/* Top three columns */}
-          <Col md={4}>
+          <Col xs={12} ms={12} md={12} lg={4}>
 
             <img src={Logo} alt="logo.png" />
             <p className="my-5">
@@ -37,7 +37,7 @@ const Footer = () => {
 
 
           </Col>
-          <Col md={4}>
+          <Col xs={12} ms={12} md={12} lg={4}>
             <h5>Unternehmen</h5>
             <ul className="list-unstyled">
               <li><a href="#">Über uns</a></li>
@@ -46,7 +46,7 @@ const Footer = () => {
               <li><a href="#">Kontakt</a></li>
             </ul>
           </Col>
-          <Col md={4}>
+          <Col xs={12} ms={12} md={12} lg={4}>
             <h5>Rechtliches</h5>
             <ul>
               <li><a href="#">Beschwerdenmanagement</a></li>
@@ -61,26 +61,26 @@ const Footer = () => {
 
         <Row>
           {/* Bottom four columns */}
-          <Col md={3}>
+          <Col xs={12} sm={12} md={12} lg={3}>
             <h5>Verpachtung</h5>
             <ul>
               <li><a href="#">Dachflächen</a></li>
               <li><a href="#">Freiflächen</a></li>
             </ul>
           </Col>
-          <Col md={3}>
+          <Col xs={12} sm={12} md={12} lg={3}>
             <h5>Investieren</h5>
             <ul>
               <li><a href="#">Investieren</a></li>
             </ul>
           </Col>
-          <Col md={3}>
+          <Col xs={12} sm={12} md={12} lg={3}>
             <h5>Markt & Wissen</h5>
             <ul>
               <li><a href="#">Neuigkeiten</a></li>
             </ul>
           </Col>
-          <Col md={3}>
+          <Col xs={12} sm={12} md={12} lg={3}>
 
             <div className="socials">
               <div className="d-flex align-items-center">

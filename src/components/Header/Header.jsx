@@ -59,36 +59,38 @@ const Header = () => {
                             <img src={Logo} id="logo" alt="logo" width={150} />
                         </NavLink>
                     </div>
-                    <button className="hamburger" onClick={() => setIsHeader(!isHeader)}>|||</button>
+                    <button className="mob-nav-hamburger" onClick={() => setIsHeader(!isHeader)}>|||</button>
                 </div>
             </header>
             <nav id="mob-main" className={`${isHeader ? 'left-0' : 'left-full'}`}>
                 <ul className="d-flex flex-column align-items-left">
                     <li>
-                        <NavLink to={`/albums`}>Über uns</NavLink>
+                        <NavLink to={`/`}>Über uns</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/albums`}>Referenzen</NavLink>
+                        <NavLink href={'#'}>Referenzen</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/albums`}>Verpachtung</NavLink>
+                        <NavLink href={`#`}>Verpachtung</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`about`}>PV-Investment</NavLink>
+                        <NavLink href={`#`}>PV-Investment</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/projects`}>Karriere</NavLink>
+                        <NavLink to={`#`}>Karriere</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/shop-all`}>Wissen</NavLink>
+                        <NavLink to={`/#`}>Wissen</NavLink>
+                    </li>
+                    <li>
+                        <button className="d-block btn-nivoma" onClick={() => {
+                            setIsHeader(!isHeader);
+                        }}>
+                            Kontakt
+                        </button>
                     </li>
                 </ul>
-                <button className="d-block" onClick={() => {
-                    setIsHeader(!isHeader);
-                }}>
-                    Kontakt
-                </button>
-            </nav>
+            </nav >
         </>
     )
 }
