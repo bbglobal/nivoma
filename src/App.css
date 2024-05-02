@@ -29,6 +29,10 @@
 p,
 li {
     font-family: Nivoma Just Regular;
+}
+
+p {
+    font-family: Nivoma Just Regular;
     color: var(--white);
 }
 

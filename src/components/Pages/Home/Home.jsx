@@ -17,21 +17,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/grid';
+// import 'swiper/css/grid';
 import 'swiper/css/pagination';
-import { Grid, Pagination } from 'swiper/modules';
+import 'swiper/css/navigation';
+import { Grid, Pagination, Navigation } from 'swiper/modules';
 
 const Home = () => {
-
-    const settings = {
-        className: "slider variable-width",
-        dots: true,
-        infinite: true,
-        centerMode: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        variableWidth: true
-    };
 
     return (
         <>
@@ -41,7 +32,7 @@ const Home = () => {
                     <video src={heroVideo} className="hero-video" autoPlay muted loop></video>
                     <Container fluid>
                         <Row>
-                            <Col xs="12" sm="12" md="6" lg="6">
+                            <Col xs="12" sm="12" md="8" lg="6">
                                 <div className="hero-txt">
                                     <h1>Wir vergleichen, <br />
                                         <strong>Sie entscheiden</strong>
@@ -50,14 +41,14 @@ const Home = () => {
                                     <p>präsentieren Ihnen die besten Optionen, die Ihren</p>
                                     <p>Anforderungen entsprechen.</p>
 
-                                    <div className="d-flex align-items-center">
+                                    <div className="d-flex flex-wrap align-items-center">
                                         <button className="btn-nivoma-yellow">Dachfläche verpachten</button>
-                                        <button className="btn-outline-nivoma mx-3">Freifläche verpachten</button>
+                                        <button className="btn-outline-nivoma my-3 mx-3">Freifläche verpachten</button>
                                     </div>
                                 </div>
                             </Col>
 
-                            <Col xs="12" sm="12" md="6" lg="6">
+                            <Col xs="12" sm="12" md="4" lg="6">
                             </Col>
                         </Row>
                     </Container>
@@ -66,13 +57,13 @@ const Home = () => {
                 <section className="section-two">
                     <Container fluid>
                         <Row>
-                            <Col xs="12" sm="12" md="6" lg="6">
+                            <Col xs="12" sm="12" md="12" lg="6">
                                 <div className="sec-two-img-wrapper">
                                     <img src={pregnanatWoment} alt="image" />
                                 </div>
                             </Col>
 
-                            <Col xs="12" sm="12" md="6" lg="6" style={{ margin: "auto" }}>
+                            <Col xs="12" sm="12" md="12" lg="6" style={{ margin: "auto" }}>
                                 <div className="sec-two-txt-wrapper">
                                     <p>JETZT VERGLEICHEN</p>
                                     <h2>Profitieren Sie von Ihrer <br />
@@ -102,7 +93,7 @@ const Home = () => {
                     <Container fluid>
                         <Row>
 
-                            <Col xs="12" sm="12" md="6" lg="6" style={{ margin: "auto" }}>
+                            <Col xs="12" sm="12" md="12" lg="6" style={{ margin: "auto" }}>
                                 <div className="sec-three-txt-wrapper">
                                     <h2>Strahlende Beispiele - <br />
                                         <strong>Unsere Referenzprojekte</strong>
@@ -121,9 +112,72 @@ const Home = () => {
                                 </div>
                             </Col>
 
-                            <Col xs="12" sm="12" md="6" lg="6">
-                                <div className="sec-two-img-wrapper">
-                                    <img src={pregnanatWoment} alt="image" />
+                            <Col xs="12" sm="12" md="12" lg="6">
+                                <div className="sec-three-img-wrapper">
+                                    <Swiper
+                                        pagination={{
+                                            type: 'progressbar',
+                                        }}
+                                        spaceBetween={20}
+                                        slidesPerView={1}
+                                        grabCursor={true}
+                                        navigation={false}
+                                        modules={[Pagination, Navigation]}
+                                        className="mySwiperSecThree">
+
+                                        <SwiperSlide>
+                                            <div className="sec-three-slide-wrapper sl-1">
+                                                <div className="sec-three-slide-footer">
+                                                    <p className='sec-three-foot-txt-gr'>
+                                                        Kirchhundem (Rheinland-Pfalz)
+                                                    </p>
+                                                    <p className='sec-three-foot-txt-wh'>
+                                                        4532 KwP
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+
+                                        <SwiperSlide>
+                                            <div className="sec-three-slide-wrapper sl-2">
+                                                <div className="sec-three-slide-footer">
+                                                    <p className='sec-three-foot-txt-gr'>
+                                                        Kirchhundem (Rheinland-Pfalz)
+                                                    </p>
+                                                    <p className='sec-three-foot-txt-wh'>
+                                                        4532 KwP
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+
+                                        <SwiperSlide>
+                                            <div className="sec-three-slide-wrapper sl-1">
+                                                <div className="sec-three-slide-footer">
+                                                    <p className='sec-three-foot-txt-gr'>
+                                                        Kirchhundem (Rheinland-Pfalz)
+                                                    </p>
+                                                    <p className='sec-three-foot-txt-wh'>
+                                                        4532 KwP
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+
+                                        <SwiperSlide>
+                                            <div className="sec-three-slide-wrapper sl-2">
+                                                <div className="sec-three-slide-footer">
+                                                    <p className='sec-three-foot-txt-gr'>
+                                                        Kirchhundem (Rheinland-Pfalz)
+                                                    </p>
+                                                    <p className='sec-three-foot-txt-wh'>
+                                                        4532 KwP
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+
+                                    </Swiper>
                                 </div>
                             </Col>
 
@@ -137,14 +191,13 @@ const Home = () => {
 
                         <Swiper
                             slidesPerView={3}
-                            grid={{
-                                rows: 1,
-                            }}
                             spaceBetween={30}
+                            grabCursor={true}
+                            loog={true}
                             pagination={{
                                 clickable: true,
                             }}
-                            modules={[Grid, Pagination]}
+                            modules={[Pagination]}
                             className="mySwiper">
                             <SwiperSlide>
                                 <div className="sec-four-box-wrapper">
@@ -211,7 +264,7 @@ const Home = () => {
                                         </h2>
                                         <p>An Projekten in der Umsetzung</p>
                                     </div>
-                                    
+
                                     <p className='slider-txt'>
                                         Mit über 322 installierten Solaranlagen <br />
                                         haben wir bereits einen bedeutenden <br />
@@ -225,8 +278,7 @@ const Home = () => {
 
                         <Container fluid>
                             <Row>
-
-                                <Col xs="12" sm="12" md="6" lg="6">
+                                <Col xs="12" sm="12" md="12" lg="6">
                                     <div className="sec-four-txt-wrapper">
                                         <div className="d-flex align-items-center justify-content-start">
                                             <img src={leaf} alt="icon" className='d-block' />
@@ -243,7 +295,7 @@ const Home = () => {
                                     </div>
                                 </Col>
 
-                                <Col xs="12" sm="12" md="6" lg="6">
+                                <Col xs="12" sm="12" md="12" lg="6">
                                     <div className="sec-four-txt-wrapper">
                                         <div className="d-flex align-items-center justify-content-start">
                                             <img src={sun} alt="icon" className='d-block' />
@@ -261,7 +313,7 @@ const Home = () => {
                                     </div>
                                 </Col>
 
-                                <Col xs="12" sm="12" md="6" lg="6">
+                                <Col xs="12" sm="12" md="12" lg="6">
                                     <div className="sec-four-txt-wrapper">
                                         <div className="d-flex align-items-center justify-content-start">
                                             <img src={prozess} alt="icon" className='d-block' />
@@ -279,7 +331,7 @@ const Home = () => {
                                     </div>
                                 </Col>
 
-                                <Col xs="12" sm="12" md="6" lg="6">
+                                <Col xs="12" sm="12" md="12" lg="6">
                                     <div className="sec-four-txt-wrapper">
                                         <div className="d-flex align-items-center justify-content-start">
                                             <img src={hands} alt="icon" className='d-block' />
@@ -306,7 +358,7 @@ const Home = () => {
                     <Container fluid>
                         <Row>
 
-                            <Col xs="12" sm="12" md="6" lg="6" style={{ margin: "auto" }}>
+                            <Col xs="12" sm="12" md="12" lg="6" style={{ margin: "auto" }}>
                                 <div className="sec-five-txt-wrapper">
                                     <h2> <strong>NIV A</strong> <br />
                                         <div className="divider"></div>
@@ -322,14 +374,13 @@ const Home = () => {
                                 </div>
                             </Col>
 
-                            <Col xs="12" sm="12" md="6" lg="6">
+                            <Col xs="12" sm="12" md="12" lg="6">
                                 <div className="sec-five-img-wrapper">
                                     <Swiper
                                         slidesPerView={2}
-                                        grid={{
-                                            rows: 1,
-                                        }}
                                         spaceBetween={10}
+                                        grabCursor={true}
+                                        loop={true}
                                         modules={[Grid]}
                                         className="mySwiperReviews">
                                         <SwiperSlide>
@@ -390,15 +441,12 @@ const Home = () => {
                 <section className="section-two">
                     <Container fluid>
                         <Row>
-                            <Col xs="12" sm="12" md="6" lg="6">
+                            <Col xs="12" sm="12" md="12" lg="6">
                                 <Swiper
                                     slidesPerView={2}
-                                    grid={{
-                                        rows: 1,
-                                    }}
                                     spaceBetween={30}
                                     loop={true}
-                                    modules={[Grid]}
+                                    grabCursor={true}
                                     className="testimonial">
                                     <SwiperSlide className='one'>
                                         <div className="sec-six-tes-wrapper">
@@ -433,7 +481,7 @@ const Home = () => {
                                 </Swiper>
                             </Col>
 
-                            <Col xs="12" sm="12" md="6" lg="6" style={{ margin: "auto" }}>
+                            <Col xs="12" sm="12" md="12" lg="6" style={{ margin: "auto" }}>
                                 <div className="sec-two-txt-wrapper">
                                     <p>UNSER TEAM</p>
                                     <h2> <strong>Profitieren Sie von Ihrer</strong> <br />
@@ -453,7 +501,7 @@ const Home = () => {
                                     </ul>
 
 
-                                    <div className="d-flex align-items-center">
+                                    <div className="d-flex flex-wrap align-items-center">
                                         <button className='btn-nivoma'>Dachfläche verpachten</button>
                                         <button className='mx-2 btn-outline'>Freifläche verpachten</button>
                                     </div>
@@ -473,7 +521,7 @@ const Home = () => {
                 <section className="section-eight">
                     <Container fluid>
                         <Row>
-                            <Col xs="12" sm="12" md="6" lg="4">
+                            <Col xs="12" sm="12" md="12" lg="4">
                                 <div className="sec-eight-txt-wrapper">
                                     <h3 className='my-5'>Häufig gestellte Fragen</h3>
 
@@ -485,7 +533,7 @@ const Home = () => {
                                 </div>
                             </Col>
 
-                            <Col xs="12" sm="12" md="6" lg="8">
+                            <Col xs="12" sm="12" md="12" lg="8">
                                 <div className="sec-eight-acc-wrapper">
                                     <Accordion defaultActiveKey="0">
                                         <Accordion.Item eventKey="0">

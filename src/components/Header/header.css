@@ -75,7 +75,7 @@ nav ul:hover li:not(:hover) {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1300.98px) {
     #main-menu {
         display: none !important;
     }
@@ -85,7 +85,7 @@ nav ul:hover li:not(:hover) {
         display: block !important;
     }
 
-    .hamburger {
+    .mob-nav-hamburger {
         transform: rotate(90deg);
         letter-spacing: -5px;
         font-weight: bolder;
@@ -99,10 +99,6 @@ nav ul:hover li:not(:hover) {
     #mob-main {
         font-family: "Tertius Sans Normal", Helvetica, Arial, sans-serif;
         --tw-border-opacity: 1;
-        border-right: solid;
-        border-right-color: #000;
-        border-right-color: rgba(0, 0, 0, var(--tw-border-opacity));
-        border-right-width: 1px;
         width: 40%;
         transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
         transition-duration: 0.7s;
@@ -125,11 +121,11 @@ nav ul:hover li:not(:hover) {
     }
 
     #mob-main a {
-        color: #000;
+        color: var(--black) !important;
     }
 
     #mob-main li {
-        padding: 0;
+        padding: 1rem 0rem;
     }
 
     .left-0 {
