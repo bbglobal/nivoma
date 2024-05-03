@@ -6,9 +6,7 @@ header * {
 }
 
 header {
-    height: 117px;
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
+    padding: 2rem;
     background: var(--white);
     position: sticky;
     z-index: 40;
@@ -87,9 +85,10 @@ nav ul:hover li:not(:hover) {
 
     .mob-nav-hamburger {
         transform: rotate(90deg);
-        letter-spacing: -5px;
         font-weight: bolder;
         font-size: 1.5rem;
+        border: none;
+        background: transparent;
     }
 
     #logo {
@@ -112,7 +111,7 @@ nav ul:hover li:not(:hover) {
         padding-top: 10px;
         padding-bottom: 5rem;
         padding: 1.5rem;
-        background-color: #fffafa;
+        background-color: var(--white);
         max-width: 24rem;
         height: 100%;
         z-index: 10;

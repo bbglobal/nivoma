@@ -105,7 +105,7 @@ const Footer = () => {
           </Col>
 
           <Col>
-            <p className="copyright-text">
+            <p className="copyright-text mt-5">
               &copy; 2024 NIVOMA GmbH | Sämtliche Rechte vorbehalten.
             </p>
           </Col>
