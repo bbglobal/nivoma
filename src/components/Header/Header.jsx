@@ -1,6 +1,6 @@
 import "./header.css"
 import Logo from "../assets/img/logo.png"
-import { NavLink } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 
@@ -21,7 +21,7 @@ const Header = () => {
                                 <img src={Logo} id="logo" alt="logo" width={150} />
                             </NavLink>
                         </div>
-                        <li className="active">
+                        <li className="current">
                             <NavLink to={`/`}>Über uns</NavLink>
                         </li>
                         <li>
@@ -37,7 +37,7 @@ const Header = () => {
                             <NavLink to={`#`}>Karriere</NavLink>
                         </li>
                         <li>
-                            <NavLink to={`/#`}>Wissen</NavLink>
+                            <NavLink to={`/wissen`}>Wissen</NavLink>
                         </li>
                     </ul>
                 </nav>

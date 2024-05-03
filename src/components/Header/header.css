@@ -58,7 +58,7 @@ nav ul li:hover {
     border-bottom: solid 2px var(--black);
 }
 
-.active {
+.current {
     border-bottom: solid 2px var(--black);
 }
 
