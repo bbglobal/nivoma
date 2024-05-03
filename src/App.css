@@ -34,13 +34,13 @@ li {
 p {
     font-family: Nivoma Just Regular;
     color: var(--white);
+    font-size: clamp(0.625rem, 0.3906rem + 0.75vw, 1rem);
 }
 
 h1,
 h2 {
     font-family: Nivoma Regular;
     color: var(--white);
-    /* font-size: clamp(1rem, -2.8281rem + 12.25vw, 4.0625rem); */
     font-size: clamp(1rem, -1.5rem + 8vw, 3rem);
 }
 

@@ -20,7 +20,7 @@ import 'swiper/css';
 // import 'swiper/css/grid';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Grid, Pagination, Navigation } from 'swiper/modules';
+import { Grid, Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const Home = () => {
 
@@ -57,7 +57,7 @@ const Home = () => {
                 <section className="section-two">
                     <Container fluid>
                         <Row>
-                            <Col xs="12" sm="12" md="12" lg="6">
+                            <Col xs="12" sm="12" md="12" lg="6" style={{ margin: "auto" }}>
                                 <div className="sec-two-img-wrapper">
                                     <img src={pregnanatWoment} alt="image" />
                                 </div>
@@ -105,10 +105,9 @@ const Home = () => {
                                         <br /> leuchtet.
                                     </p>
 
-                                    <div className="d-flex align-items-center">
-                                        <button className="btn-nivoma-yellow">Unsere Anlageprojekte</button>
-                                        <button className="btn-outline-nivoma mx-3">Verpächter werden</button>
-                                    </div>
+                                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                                        <button class="btn-nivoma-yellow">Unsere Anlageprojekte</button>
+                                        <button class="btn-outline-nivoma mx-3 my-3">Verpächter werden</button></div>
                                 </div>
                             </Col>
 
@@ -118,10 +117,18 @@ const Home = () => {
                                         pagination={{
                                             type: 'progressbar',
                                         }}
-                                        spaceBetween={20}
-                                        slidesPerView={1}
                                         grabCursor={true}
                                         navigation={false}
+                                        breakpoints={{
+                                            991: {
+                                                slidesPerView: 2,
+                                                spaceBetween: 10,
+                                            },
+                                            1300: {
+                                                slidesPerView: 1,
+                                                spaceBetween: 20,
+                                            },
+                                        }}
                                         modules={[Pagination, Navigation]}
                                         className="mySwiperSecThree">
 
@@ -190,12 +197,23 @@ const Home = () => {
                     <div className="slider-container">
 
                         <Swiper
-                            slidesPerView={3}
-                            spaceBetween={30}
                             grabCursor={true}
-                            loog={true}
                             pagination={{
                                 clickable: true,
+                            }}
+                            breakpoints={{
+                                380: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 10,
+                                },
+                                992: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 10,
+                                },
+                                1600: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 30,
+                                },
                             }}
                             modules={[Pagination]}
                             className="mySwiper">
@@ -278,7 +296,7 @@ const Home = () => {
 
                         <Container fluid>
                             <Row>
-                                <Col xs="12" sm="12" md="12" lg="6">
+                                <Col xs="12" sm="12" md="6" lg="6">
                                     <div className="sec-four-txt-wrapper">
                                         <div className="d-flex align-items-center justify-content-start">
                                             <img src={leaf} alt="icon" className='d-block' />
@@ -288,14 +306,14 @@ const Home = () => {
                                         <br />
                                         <h6>Investieren Sie in eine nachhaltige Zukunft. </h6>
                                         <br />
-                                        <p>Durch die Verpachtung Ihrer Flächen für Solaranlagen sichern Sie <br />
-                                            sich eine stabile Einnahmequelle ohne zusätzliche Kosten. <br />
-                                            Profitieren Sie von einer langfristigen, nachhaltigen Investition, die <br />
+                                        <p>Durch die Verpachtung Ihrer Flächen für Solaranlagen sichern Sie
+                                            sich eine stabile Einnahmequelle ohne zusätzliche Kosten.
+                                            Profitieren Sie von einer langfristigen, nachhaltigen Investition, die
                                             sowohl ökologisch als auch wirtschaftlich sinnvoll ist. </p>
                                     </div>
                                 </Col>
 
-                                <Col xs="12" sm="12" md="12" lg="6">
+                                <Col xs="12" sm="12" md="6" lg="6">
                                     <div className="sec-four-txt-wrapper">
                                         <div className="d-flex align-items-center justify-content-start">
                                             <img src={sun} alt="icon" className='d-block' />
@@ -305,15 +323,15 @@ const Home = () => {
                                         <br />
                                         <h6>Nachhaltig in Ihre Zukunft investieren </h6>
                                         <br />
-                                        <p>Mit der Nutzung erneuerbarer Energiequellen wie Solarenergie  <br />
-                                            tragen Sie aktiv zum Umweltschutz bei. Unsere Solaranlagen <br />
-                                            ermöglichen es Ihnen, eine nachhaltige Investition zu tätigen, die <br />
-                                            nicht nur finanziell lukrativ ist, sondern auch einen positiven Beitrag <br />
+                                        <p>Mit der Nutzung erneuerbarer Energiequellen wie Solarenergie
+                                            tragen Sie aktiv zum Umweltschutz bei. Unsere Solaranlagen
+                                            ermöglichen es Ihnen, eine nachhaltige Investition zu tätigen, die
+                                            nicht nur finanziell lukrativ ist, sondern auch einen positiven Beitrag
                                             zum Klimaschutz leistet. </p>
                                     </div>
                                 </Col>
 
-                                <Col xs="12" sm="12" md="12" lg="6">
+                                <Col xs="12" sm="12" md="6" lg="6">
                                     <div className="sec-four-txt-wrapper">
                                         <div className="d-flex align-items-center justify-content-start">
                                             <img src={prozess} alt="icon" className='d-block' />
@@ -323,15 +341,15 @@ const Home = () => {
                                         <br />
                                         <h6>Wir vergleichen - Sie entscheiden  </h6>
                                         <br />
-                                        <p>Wir übernehmen den gesamten Prozess der Suche nach dem  <br />
-                                            passenden Pächter und der Vertragsabwicklung für Sie. Sie müssen <br />
-                                            sich um nichts kümmern - von der Auswahl des geeigneten Pächters <br />
-                                            bis zur Unterzeichnung des Vertrags unterstützen wir Sie <br />
+                                        <p>Wir übernehmen den gesamten Prozess der Suche nach dem
+                                            passenden Pächter und der Vertragsabwicklung für Sie. Sie müsse
+                                            sich um nichts kümmern - von der Auswahl des geeigneten Pächters
+                                            bis zur Unterzeichnung des Vertrags unterstützen wir Sie
                                             professionell und sorgen für einen reibungslosen Ablauf.</p>
                                     </div>
                                 </Col>
 
-                                <Col xs="12" sm="12" md="12" lg="6">
+                                <Col xs="12" sm="12" md="6" lg="6">
                                     <div className="sec-four-txt-wrapper">
                                         <div className="d-flex align-items-center justify-content-start">
                                             <img src={hands} alt="icon" className='d-block' />
@@ -341,10 +359,10 @@ const Home = () => {
                                         <br />
                                         <h6>Profitieren ohne Risiko </h6>
                                         <br />
-                                        <p>Profitieren Sie von zusätzlichen Einnahmen, ohne dafür <br />
-                                            Investitionskosten oder laufende Gebühren tragen zu müssen. Unsere <br />
-                                            Dienstleistungen sind für Sie als Grundstückseigentümer kostenfrei, <br />
-                                            sodass Sie ohne finanzielles Risiko von den Vorteilen der <br />
+                                        <p>Profitieren Sie von zusätzlichen Einnahmen, ohne dafür
+                                            Investitionskosten oder laufende Gebühren tragen zu müssen. Unsere
+                                            Dienstleistungen sind für Sie als Grundstückseigentümer kostenfrei,
+                                            sodass Sie ohne finanzielles Risiko von den Vorteilen der
                                             Solarverpachtung profitieren können.</p>
                                     </div>
                                 </Col>
@@ -377,11 +395,31 @@ const Home = () => {
                             <Col xs="12" sm="12" md="12" lg="6">
                                 <div className="sec-five-img-wrapper">
                                     <Swiper
-                                        slidesPerView={2}
-                                        spaceBetween={10}
                                         grabCursor={true}
-                                        loop={true}
-                                        modules={[Grid]}
+                                        autoplay={true}
+                                        breakpoints={{
+                                            640: {
+                                                slidesPerView: 2,
+                                                spaceBetween: 20,
+                                            },
+                                            768: {
+                                                slidesPerView: 3,
+                                                spaceBetween: 20,
+                                            },
+                                            1024: {
+                                                slidesPerView: 2,
+                                                spaceBetween: 30,
+                                            },
+                                            1024: {
+                                                slidesPerView: 2,
+                                                spaceBetween: 30,
+                                            },
+                                            1680: {
+                                                slidesPerView: 3,
+                                                spaceBetween: 30,
+                                            },
+                                        }}
+                                        modules={[Grid, Autoplay]}
                                         className="mySwiperReviews">
                                         <SwiperSlide>
                                             <div className="sec-five-box-wrapper">
@@ -445,8 +483,9 @@ const Home = () => {
                                 <Swiper
                                     slidesPerView={2}
                                     spaceBetween={30}
-                                    loop={true}
                                     grabCursor={true}
+                                    navigation={true}
+                                    modules={[Navigation]}
                                     className="testimonial">
                                     <SwiperSlide className='one'>
                                         <div className="sec-six-tes-wrapper">
@@ -501,10 +540,9 @@ const Home = () => {
                                     </ul>
 
 
-                                    <div className="d-flex flex-wrap align-items-center">
-                                        <button className='btn-nivoma'>Dachfläche verpachten</button>
-                                        <button className='mx-2 btn-outline'>Freifläche verpachten</button>
-                                    </div>
+                                    <div class="d-flex flex-wrap align-items-center justify-content-center">
+                                        <button class="btn-nivoma">Dachfläche verpachten</button>
+                                        <button class="mx-2 my-3 btn-outline">Freifläche verpachten</button></div>
                                 </div>
                             </Col>
                         </Row>

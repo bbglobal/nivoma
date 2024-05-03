@@ -11,7 +11,8 @@
 .hero-txt {
     position: absolute;
     padding: calc(1vw + 2rem);
-    background: var(--primary);
+    background: transparent;
+    backdrop-filter: blur(20px);
     opacity: 0.96;
     color: var(--white);
     top: 20%;
@@ -26,6 +27,7 @@
 
 .btn-nivoma-yellow {
     height: 72px;
+    border: 1px solid var(--secondary);
     box-shadow: 0px 3px 6px var(--black);
     background: var(--secondary);
     color: var(--black);
@@ -48,11 +50,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5rem;
 }
 
 .sec-two-img-wrapper img {
-    width: 666px;
+    width: 100%;
 }
 
 .sec-two-txt-wrapper {
@@ -61,10 +62,11 @@
     justify-content: space-between;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 3rem;
 }
 
 .section-two {
-    margin-bottom: 5rem;
+    margin: 5rem;
 }
 
 .section-two h2,
@@ -172,8 +174,7 @@
 }
 
 .sec-four-txt-wrapper {
-    margin-top: 10rem;
-    margin-left: 10rem;
+    margin: 5rem 0;
 }
 
 .sec-four-txt-wrapper p {
@@ -216,7 +217,7 @@
 
 .mySwiperReviews {
     background: linear-gradient(180deg, rgba(25, 61, 56, 0.00) 0%, #193D38 100%);
-    padding: 2rem 10rem !important;
+    padding: 2rem 0rem !important;
 }
 
 .sec-five-box-wrapper p {
@@ -292,9 +293,9 @@ p.sec-three-foot-txt-wh {
     padding: 3px;
 }
 
-.mySwiperSecThree {
+/* .mySwiperSecThree {
     padding: 0 calc(10vw + 1rem) !important;
-}
+} */
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
     background: var(--secondary, var(--swiper-theme-color)) !important;
@@ -305,16 +306,18 @@ p.sec-three-foot-txt-wh {
     top: 99% !important;
 }
 
-.testimonial {
-    padding: 0 10rem !important;
-}
-
 .one {
     background-image: url("../Home/img/prof2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .two {
     background-image: url("../Home/img/prof1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .sec-six-tes-wrapper {
@@ -345,6 +348,7 @@ p.sec-three-foot-txt-wh {
 .section-seven h2,
 .section-seven p {
     color: var(--primary);
+    text-align: center;
 }
 
 .sec-eight-txt-wrapper {
@@ -387,16 +391,37 @@ p.sec-three-foot-txt-wh {
         height: 100%;
     }
 
-    .mySwiperSecThree {
-        padding: 0 calc(5vw + 1rem) !important;
-    }
-
 }
 
-@media (max-width: 768.98px) {
-    .mySwiperSecThree {
-        padding: 0 calc(10vw + 1rem) !important;
+@media (max-width: 992.98px) {
+
+    .sec-four-txt-wrapper {
+        margin-left: 0rem;
+    }
+
+    .section-four {
+        padding: 1rem;
+    }
+
+    .hero-txt {
+        top: 0;
+        left: 0;
+        backdrop-filter: blur(2px);
+    }
+
+    .btn-nivoma-yellow {
+        padding: 1rem;
+        font-size: 10px;
+        height: fit-content;
+    }
+
+    .btn-outline-nivoma {
+        padding: 1rem;
+        font-size: 10px;
+        height: fit-content;
+    }
+
+    .sec-eight-acc-wrapper {
+        padding: 0 0 3rem 0;
     }
 }
-
-@media (max-width: 575.98px) {}
