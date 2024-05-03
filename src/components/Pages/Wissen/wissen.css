@@ -1,0 +1,42 @@
+.wissen h1 {
+  font-family: Nivoma Regular;
+  color: var(--black);
+
+  font-size: clamp(1rem, -1.5rem + 8vw, 3rem);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.sec-two p {
+  color: black;
+}
+
+.sec-two h2 {
+  color: black;
+}
+.sec-two {
+  padding-bottom: 80px;
+}
+
+.sec-three p {
+  color: black;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.section-seven {
+  background: var(--primary);
+}
+.section-seven h2,
+.section-seven p {
+  color: var(--white);
+}
+
+.wissen .section-seven .btn-nivoma {
+  box-shadow: 0px 3px 6px var(--black);
+  color: var(--primary);
+  background: var(--secondary);
+  border: 1px solid var(--secondary);
+  
+}

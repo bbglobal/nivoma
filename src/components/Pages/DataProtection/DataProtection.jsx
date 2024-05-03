@@ -1,24 +1,16 @@
-
-
-import "./dataprotection.css"
+import "./dataprotection.css";
 
 const DataProtection = () => {
   return (
-    <div>
+    <main id="data-protection">
       <h1>DataProtection</h1>
-      
-<div>
 
+      <p>Impressum der NIVOMA GmbH</p>
+      <br />
 
-<p>Impressum der NIVOMA GmbH</p>
-<br/>
-
-<br/>
-</div>
-
-      
-    </div>
+      <br />
+    </main>
   );
 };
 
-export default DataProtection
+export default DataProtection;
