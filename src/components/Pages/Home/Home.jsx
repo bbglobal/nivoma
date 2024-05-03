@@ -120,12 +120,16 @@ const Home = () => {
                                         grabCursor={true}
                                         navigation={false}
                                         breakpoints={{
-                                            991: {
+                                            624: {
                                                 slidesPerView: 2,
                                                 spaceBetween: 10,
                                             },
-                                            1300: {
+                                            992: {
                                                 slidesPerView: 1,
+                                                spaceBetween: 30,
+                                            },
+                                            1300: {
+                                                slidesPerView: 2,
                                                 spaceBetween: 20,
                                             },
                                         }}
@@ -485,7 +489,8 @@ const Home = () => {
                                     spaceBetween={30}
                                     grabCursor={true}
                                     navigation={true}
-                                    modules={[Navigation]}
+                                    autoplay={true}
+                                    modules={[Navigation, Autoplay]}
                                     className="testimonial">
                                     <SwiperSlide className='one'>
                                         <div className="sec-six-tes-wrapper">
@@ -507,7 +512,7 @@ const Home = () => {
                                             </div>
                                         </div>
                                     </SwiperSlide>
-                                    <SwiperSlide className='two'>
+                                    <SwiperSlide className='one'>
                                         <div className="sec-six-tes-wrapper">
                                             <div className="sec-six-tes-footer">
                                                 <p>
