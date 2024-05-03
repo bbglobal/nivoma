@@ -1,12 +1,7 @@
-h1{
+#data-protection h1{
     color: white;
     text-align: center;
-    background-color: #193D38
-    ;
-}
-
-h1{
-
+    background-color: #193D38;
     padding-top: 50px;
     padding-bottom: 50px;
 }
