@@ -11,7 +11,7 @@ import { Routes, Route } from "react-router-dom";
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css';
-import './App.css
+import './App.css'
 
 
 function App() {
