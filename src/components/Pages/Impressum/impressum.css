@@ -1,12 +1,20 @@
-/* h1{
-    color: white;
-    text-align: center;
-    background-color: #193D38
-    ;
+main.impressum *{
+    color: var(--black);
 }
 
-h1{
+.impressum-hero-banner {
+    padding: 8rem;
+    background: var(--primary);
+    columns: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    padding-top: 50px;
-    padding-bottom: 50px;
-} */
+.impressum-hero-banner h1{
+    color: var(--white);
+}
+
+.impressum p {
+    padding: 1rem;
+}

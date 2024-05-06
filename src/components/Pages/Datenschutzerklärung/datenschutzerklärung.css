@@ -1,0 +1,10 @@
+main.daten * {
+  color: var(--black);
+}
+
+.daten-hero-banner h1 {
+  text-align: center;
+  padding: 7rem;
+  background-color: #1a3e39;
+  color: var(--white);
+}
