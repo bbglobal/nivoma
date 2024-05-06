@@ -25,11 +25,11 @@
   padding-right: 60px;
 }
 
-.section-seven {
+.wissen .section-seven {
   background: var(--primary);
 }
-.section-seven h2,
-.section-seven p {
+.wissen .section-seven h2,
+.wissen .section-seven p {
   color: var(--white);
 }
 

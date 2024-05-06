@@ -12,12 +12,9 @@ import rating from '../../assets/icons/rating.svg'
 import { Container, Row, Col, Accordion } from "react-bootstrap"
 
 import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
-// import 'swiper/css/grid';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Grid, Pagination, Navigation, Autoplay } from 'swiper/modules';
@@ -377,10 +374,12 @@ const Home = () => {
                 </section>
 
                 <section className="section-five">
+
                     <Container fluid>
                         <Row>
 
-                            <Col xs="12" sm="12" md="12" lg="6" style={{ margin: "auto" }}>
+                            <Col xs="12" sm="12" md="12" lg="6" style={{ position: "relative" }}>
+                                <img src={secThreeBg} alt="image" className='sec-five-bg-img' />
                                 <div className="sec-five-txt-wrapper">
                                     <h2> <strong>NIV A</strong> <br />
                                         <div className="divider"></div>
@@ -396,7 +395,7 @@ const Home = () => {
                                 </div>
                             </Col>
 
-                            <Col xs="12" sm="12" md="12" lg="6">
+                            <Col xs="12" sm="12" md="12" lg="6" style={{paddingLeft: "0", paddingRight: "0"}}>
                                 <div className="sec-five-img-wrapper">
                                     <Swiper
                                         grabCursor={true}
