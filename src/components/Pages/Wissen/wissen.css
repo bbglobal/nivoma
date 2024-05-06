@@ -1,33 +1,86 @@
+.wissen *{
+  font-family: Nivoma Regular, sans-serif;
+  color: var(--black);
+}
+
 .wissen h1 {
   font-family: Nivoma Regular;
   color: var(--black);
-
-  font-size: clamp(1rem, -1.5rem + 8vw, 3rem);
+  font-size: clamp(2.25rem, 0.1786rem + 6.9048vw, 4.0625rem);
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 80px;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
 }
 
 .sec-two p {
-  color: black;
+  color: var(--black);
+  font-size: clamp(1rem, 0.2857rem + 2.381vw, 1.625rem);
 }
 
 .sec-two h2 {
-  color: black;
+  font-size: clamp(2.25rem, 0.1786rem + 6.9048vw, 4.0625rem);
+  color: var(--black);
 }
+
 .sec-two {
-  padding-bottom: 80px;
+  padding: 5rem;
+}
+
+.sec-two-views-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: flex-start;
+}
+
+.sec-two-views-wrapper button {
+  background: transparent;
+  border: none;
+}
+
+.sec-three {
+  padding: 5rem;
 }
 
 .sec-three p {
-  color: black;
-  padding-left: 60px;
-  padding-right: 60px;
+  color: var(--black);
+}
+
+.sec-four {
+  padding: 5rem;
+}
+
+.wissen-sec-four-head-wrapper h2{
+  font-family: Nivoma Nromal, sans-serif;
+  font-size: clamp(1rem, -1.2656rem + 7.25vw, 2.8125rem);
+  color: var(--black);
+  margin-bottom: 2rem;
+}
+
+.wissen-sec-four-slide-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.wissen-sec-four-slide-wrapper p{
+  font-family: Nivoma Just Regular;
+  font-size: clamp(1rem, 0.4531rem + 1.75vw, 1.4375rem);
+}
+
+.wissen-sec-four-img-wrapper img {
+  width: 100%;
+}
+
+.wissen-sec-four-txt-body p {
+  color: #000;
 }
 
 .wissen .section-seven {
   background: var(--primary);
 }
+
 .wissen .section-seven h2,
 .wissen .section-seven p {
   color: var(--white);
@@ -38,5 +91,4 @@
   color: var(--primary);
   background: var(--secondary);
   border: 1px solid var(--secondary);
-  
 }

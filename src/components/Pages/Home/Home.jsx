@@ -9,14 +9,13 @@ import sun from '../../assets/icons/sun-svgrepo-com.svg'
 import prozess from '../../assets/icons/prozess.svg'
 import hands from '../../assets/icons/hands-holding-svgrepo-com.svg'
 import rating from '../../assets/icons/rating.svg'
+import reviewOne from './img/review1.jpg'
+import reviewTwo from './img/review2.jpg'
+import reviewThree from './img/review3.jpg'
 import { Container, Row, Col, Accordion } from "react-bootstrap"
 
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 import { Grid, Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const Home = () => {
@@ -395,11 +394,11 @@ const Home = () => {
                                 </div>
                             </Col>
 
-                            <Col xs="12" sm="12" md="12" lg="6" style={{paddingLeft: "0", paddingRight: "0"}}>
+                            <Col xs="12" sm="12" md="12" lg="6" style={{ paddingLeft: "0", paddingRight: "0" }}>
                                 <div className="sec-five-img-wrapper">
                                     <Swiper
                                         grabCursor={true}
-                                        autoplay={true}
+                                        // autoplay={true}
                                         breakpoints={{
                                             640: {
                                                 slidesPerView: 2,
@@ -426,36 +425,38 @@ const Home = () => {
                                         className="mySwiperReviews">
                                         <SwiperSlide>
                                             <div className="sec-five-box-wrapper">
-                                                <p className='text-center'>Jürgen W.</p>
-                                                <br />
-                                                <p style={{ padding: "0 1rem" }}>Absolut empfehlenswert <br />
+                                                <p className='text-center d-flex align-items-center' style={{ gap: "1rem" }}>
+                                                    <img src={reviewOne} alt="image" />
+                                                    Jürgen W.
+                                                </p>
+                                                <p>Absolut empfehlenswert <br />
                                                     Gruß Jürgen
                                                 </p>
-                                                <br />
                                                 <img src={rating} alt="icon" />
                                             </div>
                                         </SwiperSlide>
 
                                         <SwiperSlide>
                                             <div className="sec-five-box-wrapper">
-                                                <p className='text-center'>Jürgen W.</p>
-                                                <br />
-                                                <p style={{ padding: "0 1rem" }}>Absolut empfehlenswert <br />
-                                                    Gruß Jürgen
+                                                <p className='text-center d-flex align-items-center' style={{ gap: "1rem" }}>
+                                                    <img src={reviewTwo} alt="image" />
+                                                    Dr. Lutz K.
                                                 </p>
-                                                <br />
+                                                <p>Wir schätzen die transparente  <br />
+                                                    Kommunikation und die <br />
+                                                    Effizienz, mit der NIVOMA…
+                                                </p>
                                                 <img src={rating} alt="icon" />
                                             </div>
                                         </SwiperSlide>
 
                                         <SwiperSlide>
                                             <div className="sec-five-box-wrapper">
-                                                <p className='text-center'>Jürgen W.</p>
-                                                <br />
-                                                <p style={{ padding: "0 1rem" }}>Absolut empfehlenswert <br />
-                                                    Gruß Jürgen
+                                                <p className='text-center d-flex align-items-center' style={{ gap: "1rem" }}>
+                                                    <img src={reviewThree} alt="image" />
+                                                    Petra Liebherr
                                                 </p>
-                                                <br />
+                                                <p>Zeit gespart und höhere Pacht <br /> verhandelt. Danke für die <br /> Empfehlung!</p>
                                                 <img src={rating} alt="icon" />
                                             </div>
                                         </SwiperSlide>
