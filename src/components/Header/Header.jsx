@@ -34,10 +34,13 @@ const Header = () => {
                             <NavLink href={`#`}>PV-Investment</NavLink>
                         </li>
                         <li>
-                            <NavLink to={`#`}>Karriere</NavLink>
+                            <NavLink to={`/impressum`}>Impressum</NavLink>
                         </li>
                         <li>
                             <NavLink to={`/wissen`}>Wissen</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to={`/datenschutzerklärung`}>Datenschutzerklärung</NavLink>
                         </li>
                     </ul>
                 </nav>
@@ -77,7 +80,7 @@ const Header = () => {
                         <NavLink href={`#`}>PV-Investment</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`#`}>Karriere</NavLink>
+                        <NavLink to={`/impressum`}>impressum</NavLink>
                     </li>
                     <li>
                         <NavLink to={`/#`}>Wissen</NavLink>

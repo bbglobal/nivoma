@@ -1,6 +1,14 @@
-import { Header, Footer, Impressum, DataProtection, Home, Wissen } from './components';
+import {
+  Header,
+  Footer,
+  Impressum,
+  DataProtection,
+  Home,
+  Wissen,
+  Datenschutzerklärung,
+} from "./components";
 import { Routes, Route } from "react-router-dom";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
@@ -12,8 +20,12 @@ function App() {
         <Route path="/impressum" element={<Impressum />}></Route>
         <Route path="/data-protection" element={<DataProtection />}></Route>
         <Route path="/wissen" element={<Wissen />}></Route>
+        <Route
+          path="/datenschutzerklärung"
+          element={<Datenschutzerklärung />}
+        ></Route>
       </Routes>
-      
+
       <Footer />
     </>
   );
