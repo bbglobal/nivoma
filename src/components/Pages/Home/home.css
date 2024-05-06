@@ -418,6 +418,10 @@ p.sec-three-foot-txt-wh {
         backdrop-filter: blur(2px);
     }
 
+    .hero-txt p{
+        margin-bottom: 0;
+    }
+
     .btn-nivoma-yellow {
         padding: 1rem;
         font-size: 10px;
