@@ -22,7 +22,7 @@ const Header = () => {
                             </NavLink>
                         </div>
                         <li className="current">
-                            <NavLink to={`/`}>Über uns</NavLink>
+                            <NavLink to={`/uberuns`}>Über uns</NavLink>
                         </li>
                         <li>
                             <NavLink href={'#'}>Referenzen</NavLink>
@@ -68,7 +68,7 @@ const Header = () => {
             <nav id="mob-main" className={`${isHeader ? 'left-0' : 'left-full'}`}>
                 <ul className="d-flex flex-column align-items-left">
                     <li>
-                        <NavLink to={`/`}>Über uns</NavLink>
+                        <NavLink to={`/uberuns`}>Über uns</NavLink>
                     </li>
                     <li>
                         <NavLink href={'#'}>Referenzen</NavLink>

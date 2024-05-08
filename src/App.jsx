@@ -5,7 +5,8 @@ import {
   DataProtection,
   Home,
   Wissen,
-  Datenschutzerklärung,
+  Datenschutzerklärung, 
+  Uberuns
 } from "./components";
 import { Routes, Route } from "react-router-dom";
 import 'swiper/css/pagination';
@@ -28,6 +29,7 @@ function App() {
           path="/datenschutzerklärung"
           element={<Datenschutzerklärung />}
         ></Route>
+        <Route path="/uberuns" element={<Uberuns />}></Route>
       </Routes>
 
       <Footer />

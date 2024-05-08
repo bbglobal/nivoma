@@ -442,10 +442,7 @@ const Home = () => {
                                                     <img src={reviewTwo} alt="image" />
                                                     Dr. Lutz K.
                                                 </p>
-                                                <p>Wir schätzen die transparente  <br />
-                                                    Kommunikation und die <br />
-                                                    Effizienz, mit der NIVOMA…
-                                                </p>
+                                                <p>Wir schätzen die transparente Kommunikation und die Effizienz, mit der NIVOMA…</p>
                                                 <img src={rating} alt="icon" />
                                             </div>
                                         </SwiperSlide>
@@ -456,19 +453,7 @@ const Home = () => {
                                                     <img src={reviewThree} alt="image" />
                                                     Petra Liebherr
                                                 </p>
-                                                <p>Zeit gespart und höhere Pacht <br /> verhandelt. Danke für die <br /> Empfehlung!</p>
-                                                <img src={rating} alt="icon" />
-                                            </div>
-                                        </SwiperSlide>
-
-                                        <SwiperSlide>
-                                            <div className="sec-five-box-wrapper">
-                                                <p className='text-center'>Jürgen W.</p>
-                                                <br />
-                                                <p style={{ padding: "0 1rem" }}>Absolut empfehlenswert <br />
-                                                    Gruß Jürgen
-                                                </p>
-                                                <br />
+                                                <p>Zeit gespart und höhere Pacht verhandelt. Danke für die Empfehlung!</p>
                                                 <img src={rating} alt="icon" />
                                             </div>
                                         </SwiperSlide>
@@ -485,11 +470,23 @@ const Home = () => {
                         <Row>
                             <Col xs="12" sm="12" md="12" lg="6">
                                 <Swiper
-                                    slidesPerView={2}
-                                    spaceBetween={30}
                                     grabCursor={true}
                                     navigation={true}
                                     autoplay={true}
+                                    breakpoints={{
+                                        480: {
+                                            slidesPerView: 1,
+                                            spaceBetween: 10,
+                                        },
+                                        578: {
+                                            slidesPerView: 2,
+                                            spaceBetween: 10,
+                                        },
+                                        1600: {
+                                            slidesPerView: 3,
+                                            spaceBetween: 30,
+                                        },
+                                    }}
                                     modules={[Navigation, Autoplay]}
                                     className="testimonial">
                                     <SwiperSlide className='one'>

@@ -1,0 +1,38 @@
+.uberuns * {
+    color: var(--black);
+}
+
+.uberuns h2,
+.uberuns h1 {
+    font-family: "Nivoma Regular", sans-serif;
+    font-size: clamp(2.625rem, 0.9821rem + 5.4762vw, 4.0625rem);
+}
+
+.uberuns h3 {
+    font-family: "Nivoma Regular", sans-serif;
+    font-size: clamp(1.5rem, -0.5714rem + 6.9048vw, 3.3125rem);
+}
+
+.uberuns p {
+    font-family: "Nivoma Just Regular", sans-serif;
+    font-size: clamp(1rem, 0.5rem + 1.6667vw, 1.4375rem);
+}
+
+.uber-txt-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70dvh;
+    background: var(--secondary);
+}
+
+.uber-video-wrapper video {
+    width: 100%;
+    padding: 0 3rem;
+    position: relative;
+    top: -10rem;
+}
+
+.user-sec-two-txt-wrapper {
+    padding: 1.5rem;
+}
