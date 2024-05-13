@@ -1,0 +1,15 @@
+.section-seven {
+    height: clamp(26.31875rem, 10.6938rem + 50vw, 38.81875rem);
+    background: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.section-seven h2,
+.section-seven p {
+    color: var(--primary);
+    text-align: center;
+}

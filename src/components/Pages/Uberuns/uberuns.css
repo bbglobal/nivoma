@@ -5,12 +5,12 @@
 .uberuns h2,
 .uberuns h1 {
     font-family: "Nivoma Regular", sans-serif;
-    font-size: clamp(2.625rem, 0.9821rem + 5.4762vw, 4.0625rem);
+    font-size: clamp(1.5rem, -0.9023rem + 8.0078vw, 4.0625rem);
 }
 
 .uberuns h3 {
     font-family: "Nivoma Regular", sans-serif;
-    font-size: clamp(1.5rem, -0.5714rem + 6.9048vw, 3.3125rem);
+    font-size: clamp(1.5rem, -0.9023rem + 8.0078vw, 4.0625rem);
 }
 
 .uberuns p {
@@ -20,19 +20,203 @@
 
 .uber-txt-wrapper {
     display: flex;
-    align-items: center;
+    padding: calc(10vh + 1rem) 1.5rem;
+    align-items: flex-start;
     justify-content: center;
-    height: 70dvh;
+    height: clamp(18rem, -16.8633rem + 116.2109vw, 55.1875rem);
     background: var(--secondary);
 }
 
 .uber-video-wrapper video {
     width: 100%;
-    padding: 0 3rem;
-    position: relative;
-    top: -10rem;
+    padding: 0 1.5rem;
+    position: absolute;
+    top: clamp(-0.375rem, 27.3984rem + -92.5781vw, -30rem);
+    top: 30rem;
+}
+
+.uber-sec-two-wrapper {
+    margin-top: 42rem;
+    background-image: url("./img/ellipse.webp");
+    background-position: 170% center;
+    background-repeat: no-repeat;
+    margin-bottom: 10rem;
+}
+
+.uber-sec-two-blank-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .user-sec-two-txt-wrapper {
     padding: 1.5rem;
+}
+
+.uber-sec-two-inner {
+    height: 713px;
+    width: 409px;
+    background: #D9D9D9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.uber-sec-two-txt {
+    background: #fdfafa;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.uberuns .section-seven {
+    background: var(--primary);
+}
+
+.uberuns .section-seven h2,
+.uberuns .section-seven p {
+    color: var(--white);
+}
+
+.uberuns .btn-nivoma {
+    color: var(--primary);
+    background: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+.uber-sm {
+    font-size: 19px;
+    font-family: "Nivoma Jus Normal", sans-serif;
+    text-align: center;
+}
+
+.uber-sec-four-wrapper {
+    padding: 5rem 1.5rem;
+}
+
+.uber-sec-head-txt-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.uber-sec-four-gallery-wrapper {
+    padding: 5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.uberuns .sec-six-tes-wrapper {
+    height: 866px;
+    width: 528px;
+}
+
+.uberuns .bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.uberuns .three {
+    background-image: url("./img/team-1.webp");
+}
+
+.uberuns .four {
+    background-image: url("./img/team.webp");
+}
+
+.uberuns .five {
+    background-image: url("./img/team-2.webp");
+}
+
+.uberuns .six {
+    background-image: url("./img/team-3.webp");
+}
+
+.uberuns .seven {
+    background-image: url("./img/team-4.webp");
+}
+
+.uberuns .eight {
+    background-image: url("./img/team-5.webp");
+}
+
+.uberuns .nine {
+    background-image: url("./img/team-6.webp");
+}
+
+.uber-sec-five-wrapper {
+    padding: 1.5rem;
+}
+
+.uber-btn-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.uber-sec-five-txt-wrapper {
+    margin: 2rem auto;
+}
+
+.uber-sec-five-box-wrapper {
+    width: 100%;
+    height: 488px;
+    box-shadow: 0px 20px 32px #0000001a;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.uber-sec-five-box-wrapper h5 {
+    font-size: clamp(1.25rem, 0.6641rem + 1.9531vw, 1.875rem);
+    font-family: "Nivoma Just Sans", sans-serif;
+    font-weight: bold;
+}
+
+.abnorm {
+    margin-top: 5rem;
+}
+
+@media (max-width: 992.98px) {
+
+    .uber-sec-four-gallery-wrapper {
+        gap: 3.5rem;
+    }
+
+    .uberuns .sec-six-tes-wrapper {
+        height: 466px;
+    }
+
+    .uberuns .sec-six-tes-wrapper {
+        width: 328px;
+    }
+
+    .uber-sec-five-box-wrapper {
+        height: 388px;
+    }
+
+    .abnorm {
+        margin-top: auto;
+    }
 }

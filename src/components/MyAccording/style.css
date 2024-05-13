@@ -1,0 +1,34 @@
+.sec-eight-txt-wrapper {
+    padding: 2rem;
+}
+
+.section-eight h3 {
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.section-eight h4 {
+    font-size: 23px;
+    font-weight: 400;
+    color: var(--black);
+    opacity: .5;
+}
+
+.section-eight .active {
+    color: var(--black);
+    opacity: 1;
+}
+
+.sec-eight-acc-wrapper {
+    padding: 8rem 5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary) !important;
+    background-color: var(--bs-accordion-border-color) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: var(--primary) !important;
+}

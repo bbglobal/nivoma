@@ -33,15 +33,15 @@ const Header = () => {
                         <li>
                             <NavLink href={`#`}>PV-Investment</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to={`/impressum`}>Impressum</NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to={`/wissen`}>Wissen</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to={`/datenschutzerklärung`}>Datenschutzerklärung</NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </nav>
                 <div className="d-flex align-items-center">

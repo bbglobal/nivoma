@@ -6,5 +6,9 @@ import Home from "./Pages/Home/Home";
 import Wissen from "./Pages/Wissen";
 import Datenschutzerklärung from "./Pages/Datenschutzerklärung";
 import Uberuns from "./Pages/Uberuns";
+import SliderProgressBar from "./SliderProgressBar";
+import SliderTwo from "./SliderTwo";
+import MyAccording from "./MyAccording";
+import MyBanner from "./MyBanner";
 
-export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns }
+export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner }
