@@ -6,7 +6,8 @@ import {
   Home,
   Wissen,
   Datenschutzerklärung, 
-  Uberuns
+  Uberuns,
+  Referenzen
 } from "./components";
 import { Routes, Route } from "react-router-dom";
 import 'swiper/css/pagination';
@@ -22,6 +23,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/uberuns" element={<Uberuns />}></Route>
+        <Route path="/referenzen" element={<Referenzen />}></Route>
         <Route path="/impressum" element={<Impressum />}></Route>
         <Route path="/data-protection" element={<DataProtection />}></Route>
         <Route path="/wissen" element={<Wissen />}></Route>
@@ -29,7 +32,6 @@ function App() {
           path="/datenschutzerklärung"
           element={<Datenschutzerklärung />}
         ></Route>
-        <Route path="/uberuns" element={<Uberuns />}></Route>
       </Routes>
 
       <Footer />

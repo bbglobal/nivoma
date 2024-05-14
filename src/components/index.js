@@ -10,5 +10,6 @@ import SliderProgressBar from "./SliderProgressBar";
 import SliderTwo from "./SliderTwo";
 import MyAccording from "./MyAccording";
 import MyBanner from "./MyBanner";
+import Referenzen from "./Pages/Referenzen";
 
-export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner }
+export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Referenzen }

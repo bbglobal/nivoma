@@ -25,7 +25,7 @@ const Header = () => {
                             <NavLink to={`/uberuns`}>Über uns</NavLink>
                         </li>
                         <li>
-                            <NavLink href={'#'}>Referenzen</NavLink>
+                            <NavLink href={'/referenzen'}>Referenzen</NavLink>
                         </li>
                         <li>
                             <NavLink href={`#`}>Verpachtung</NavLink>
@@ -33,15 +33,9 @@ const Header = () => {
                         <li>
                             <NavLink href={`#`}>PV-Investment</NavLink>
                         </li>
-                        {/* <li>
-                            <NavLink to={`/impressum`}>Impressum</NavLink>
-                        </li> */}
                         <li>
                             <NavLink to={`/wissen`}>Wissen</NavLink>
                         </li>
-                        {/* <li>
-                            <NavLink to={`/datenschutzerklärung`}>Datenschutzerklärung</NavLink>
-                        </li> */}
                     </ul>
                 </nav>
                 <div className="d-flex align-items-center">
@@ -71,7 +65,7 @@ const Header = () => {
                         <NavLink to={`/uberuns`}>Über uns</NavLink>
                     </li>
                     <li>
-                        <NavLink href={'#'}>Referenzen</NavLink>
+                        <NavLink href={'/referenzen'}>Referenzen</NavLink>
                     </li>
                     <li>
                         <NavLink href={`#`}>Verpachtung</NavLink>
