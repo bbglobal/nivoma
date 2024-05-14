@@ -250,14 +250,6 @@ p.sec-three-foot-txt-wh {
 
 @media (max-width: 992.98px) {
 
-    .sec-four-txt-wrapper {
-        margin-left: 0rem;
-    }
-
-    .section-four {
-        padding: 1rem;
-    }
-
     .hero-txt {
         top: 0;
         left: 0;
@@ -278,10 +270,6 @@ p.sec-three-foot-txt-wh {
         padding: .7rem;
         font-size: 8px;
         height: fit-content;
-    }
-
-    .sec-eight-acc-wrapper {
-        padding: 0 0 3rem 0;
     }
 
     .sec-five-img-wrapper {

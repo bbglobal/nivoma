@@ -32,3 +32,10 @@
 .accordion-button:focus {
     box-shadow: var(--primary) !important;
 }
+
+@media (max-width: 992.98px) {
+
+    .sec-eight-acc-wrapper {
+        padding: 0 0 3rem 0;
+    }
+}

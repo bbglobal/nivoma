@@ -48,3 +48,14 @@
 .sec-four-txt-wrapper p {
     color: var(--black);
 }
+
+@media (max-width: 992.98px) {
+
+    .sec-four-txt-wrapper {
+        margin-left: 0rem;
+    }
+
+    .section-four {
+        padding: 1rem;
+    }
+}
