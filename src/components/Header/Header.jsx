@@ -33,15 +33,12 @@ const Header = () => {
                         <li>
                             <NavLink href={`#`}>PV-Investment</NavLink>
                         </li>
-                        {/* <li>
-                            <NavLink to={`/impressum`}>Impressum</NavLink>
-                        </li> */}
+                        <li>
+                            <NavLink to={`/karriere`}>Karriere</NavLink>
+                        </li>
                         <li>
                             <NavLink to={`/wissen`}>Wissen</NavLink>
                         </li>
-                        {/* <li>
-                            <NavLink to={`/datenschutzerklärung`}>Datenschutzerklärung</NavLink>
-                        </li> */}
                     </ul>
                 </nav>
                 <div className="d-flex align-items-center">
@@ -80,7 +77,7 @@ const Header = () => {
                         <NavLink href={`#`}>PV-Investment</NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/impressum`}>impressum</NavLink>
+                        <NavLink to={`/karriere`}>Karriere</NavLink>
                     </li>
                     <li>
                         <NavLink to={`/#`}>Wissen</NavLink>

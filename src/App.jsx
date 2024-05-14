@@ -6,7 +6,9 @@ import {
   Home,
   Wissen,
   Datenschutzerklärung, 
-  Uberuns
+  Uberuns,
+  Karriere,
+  Karriereinsight,
 } from "./components";
 import { Routes, Route } from "react-router-dom";
 import 'swiper/css/pagination';
@@ -30,6 +32,8 @@ function App() {
           element={<Datenschutzerklärung />}
         ></Route>
         <Route path="/uberuns" element={<Uberuns />}></Route>
+        <Route path="/karriere" element={<Karriere />}></Route>
+        <Route path="/karriere-insight" element={<Karriereinsight />}></Route>
       </Routes>
 
       <Footer />
