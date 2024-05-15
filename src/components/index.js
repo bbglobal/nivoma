@@ -10,7 +10,8 @@ import SliderProgressBar from "./SliderProgressBar";
 import SliderTwo from "./SliderTwo";
 import MyAccording from "./MyAccording";
 import MyBanner from "./MyBanner";
+import Referenzen from "./Pages/Referenzen";
 import Karriere from "./Pages/Karriere";
 import Karriereinsight from "./Pages/Karriereinsight";
 
-export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight }
+export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen }

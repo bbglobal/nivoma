@@ -26,22 +26,24 @@
     src: url("../src/components/assets/fonts/Just_Sans/JUST-Sans-Regular.otf");
 }
 
-p,
-li {
-    font-family: Nivoma Just Regular;
+h2,
+h1 {
+    font-family: "Nivoma Regular", sans-serif;
+    font-size: clamp(1.5rem, -0.9023rem + 8.0078vw, 4.0625rem);
+}
+
+h3 {
+    font-family: "Nivoma Regular", sans-serif;
+    font-size: clamp(1.5rem, -0.9023rem + 8.0078vw, 4.0625rem);
 }
 
 p {
-    font-family: Nivoma Just Regular;
-    color: var(--white);
-    font-size: clamp(0.625rem, 0.3906rem + 0.75vw, 1rem);
+    font-family: "Nivoma Just Regular", sans-serif;
+    font-size: clamp(1rem, 0.5rem + 1.6667vw, 1.4375rem);
 }
 
-h1,
-h2 {
-    font-family: Nivoma Regular;
-    color: var(--white);
-    font-size: clamp(1rem, -1.5rem + 8vw, 3rem);
+li {
+    font-family: "Nivoma Just Regular", sans-serif;
 }
 
 strong {

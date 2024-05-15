@@ -25,7 +25,7 @@ const Header = () => {
                             <NavLink to={`/uberuns`}>Über uns</NavLink>
                         </li>
                         <li>
-                            <NavLink href={'#'}>Referenzen</NavLink>
+                            <NavLink href={'/referenzen'}>Referenzen</NavLink>
                         </li>
                         <li>
                             <NavLink href={`#`}>Verpachtung</NavLink>
@@ -68,7 +68,7 @@ const Header = () => {
                         <NavLink to={`/uberuns`}>Über uns</NavLink>
                     </li>
                     <li>
-                        <NavLink href={'#'}>Referenzen</NavLink>
+                        <NavLink href={'/referenzen'}>Referenzen</NavLink>
                     </li>
                     <li>
                         <NavLink href={`#`}>Verpachtung</NavLink>
