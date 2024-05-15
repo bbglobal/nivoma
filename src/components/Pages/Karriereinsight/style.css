@@ -1,0 +1,15 @@
+.kar-sec-hero {
+    background: var(--primary);
+    height: 888px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#karriereinsight h1 {
+  text-align: center;
+  color: #ffffff;
+}
+#karriereinsight p {
+  text-align: center;
+}

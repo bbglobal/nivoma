@@ -7,6 +7,8 @@ import {
   Wissen,
   Datenschutzerklärung, 
   Uberuns,
+  Karriere,
+  Karriereinsight,
   Referenzen
 } from "./components";
 import { Routes, Route } from "react-router-dom";
@@ -30,8 +32,10 @@ function App() {
         <Route path="/wissen" element={<Wissen />}></Route>
         <Route
           path="/datenschutzerklärung"
-          element={<Datenschutzerklärung />}
-        ></Route>
+          element={<Datenschutzerklärung />}></Route>
+        <Route path="/uberuns" element={<Uberuns />}></Route>
+        <Route path="/karriere" element={<Karriere />}></Route>
+        <Route path="/karriere-insight" element={<Karriereinsight />}></Route>
       </Routes>
 
       <Footer />
