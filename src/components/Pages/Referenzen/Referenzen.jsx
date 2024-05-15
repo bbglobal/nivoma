@@ -6,7 +6,7 @@ import slideFour from "./img/slide4.webp"
 import { Container, Row, Col } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-import { MyAccording } from '../../../components'
+import { MyAccording, SliderTwo } from '../../../components'
 
 const Referenzen = () => {
     return (
@@ -168,14 +168,14 @@ const Referenzen = () => {
                 <section className="ref-sec-three-wrapper">
                     <Container>
                         <div className="ref-sec-three-txt-wrapper">
-                            <h2 className='text-center'>Unsere Solarinvestments - <br /> Jetzt Top Rendite sichern</h2>
+                            <h2 className='text-center py-5'>Unsere Solarinvestments - <br /> Jetzt Top Rendite sichern</h2>
                         </div>
 
                         <table className='ref-table'>
                             <thead className='ref-thead'>
                                 <tr>
                                     <th>
-                                        {/* <input type="checkbox" name="" id="" />  */}
+                                        <input type="checkbox" name="" id="" />&nbsp;
                                         Name
                                     </th>
                                     <th>Leistung in kWp</th>
@@ -185,433 +185,81 @@ const Referenzen = () => {
                                 </tr>
                             </thead>
                             <tbody className='ref-body'>
+                                <br />
                                 <tr>
                                     <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
+                                        <input type="checkbox" name="" id="" />&nbsp;
+                                        Solarpark Passau Brentzau</td>
                                     <td>99.09 kWp</td>
                                     <td>24 April 2024</td>
                                     <td>Passau, Bayern</td>
                                     <td className='last'>Anfrage senden</td>
                                 </tr>
+                                <br />
                                 <tr>
                                     <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
+                                        <input type="checkbox" name="" id="" />&nbsp;
+                                        Solarpark Passau Brentzau</td>
                                     <td>99.09 kWp</td>
                                     <td>24 April 2024</td>
                                     <td>Passau, Bayern</td>
                                     <td className='last'>Anfrage senden</td>
                                 </tr>
+                                <br />
                                 <tr>
                                     <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
+                                        <input type="checkbox" name="" id="" />&nbsp;
+                                        Solarpark Passau Brentzau</td>
                                     <td>99.09 kWp</td>
                                     <td>24 April 2024</td>
                                     <td>Passau, Bayern</td>
                                     <td className='last'>Anfrage senden</td>
                                 </tr>
+                                <br />
                                 <tr>
                                     <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
+                                        <input type="checkbox" name="" id="" />&nbsp;
+                                        Solarpark Passau Brentzau</td>
                                     <td>99.09 kWp</td>
                                     <td>24 April 2024</td>
                                     <td>Passau, Bayern</td>
                                     <td className='last'>Anfrage senden</td>
                                 </tr>
+                                <br />
                                 <tr>
                                     <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
+                                        <input type="checkbox" name="" id="" />&nbsp;
+                                        Solarpark Passau Brentzau</td>
                                     <td>99.09 kWp</td>
                                     <td>24 April 2024</td>
                                     <td>Passau, Bayern</td>
                                     <td className='last'>Anfrage senden</td>
                                 </tr>
+                                <br />
                                 <tr>
                                     <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
+                                        <input type="checkbox" name="" id="" />&nbsp;
+                                        Solarpark Passau Brentzau</td>
                                     <td>99.09 kWp</td>
                                     <td>24 April 2024</td>
                                     <td>Passau, Bayern</td>
                                     <td className='last'>Anfrage senden</td>
                                 </tr>
+                                <br />
                                 <tr>
                                     <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
+                                        <input type="checkbox" name="" id="" />&nbsp;
+                                        Solarpark Passau Brentzau</td>
                                     <td>99.09 kWp</td>
                                     <td>24 April 2024</td>
                                     <td>Passau, Bayern</td>
                                     <td className='last'>Anfrage senden</td>
                                 </tr>
+                                <br />
                                 <tr>
                                     <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
-                                    <td>99.09 kWp</td>
-                                    <td>24 April 2024</td>
-                                    <td>Passau, Bayern</td>
-                                    <td className='last'>Anfrage senden</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        {/* <input type="checkbox" name="" id="" />  */}
-                                         Solarpark Passau Brentzau</td>
+                                        <input type="checkbox" name="" id="" />&nbsp;
+                                        Solarpark Passau Brentzau</td>
                                     <td>99.09 kWp</td>
                                     <td>24 April 2024</td>
                                     <td>Passau, Bayern</td>
@@ -619,6 +267,12 @@ const Referenzen = () => {
                                 </tr>
                             </tbody>
                         </table>
+                    </Container>
+                </section>
+
+                <section className="section-four mt-5">
+                    <Container>
+                        <SliderTwo />
                     </Container>
                 </section>
 

@@ -8,7 +8,7 @@ import shapeIcon from './img/shape.svg'
 import tradeIcon from './img/trade.svg'
 import personalIcon from './img/personal-data.svg'
 
-import {SliderProgressBar, SliderTwo, MyAccording, MyBanner} from '../../../components'
+import { SliderProgressBar, SliderTwo, MyAccording, MyBanner, IconBox } from '../../../components'
 
 const Uberuns = () => {
     return (
@@ -333,10 +333,13 @@ const Uberuns = () => {
                     </Container>
                 </section>
 
-                
+
                 <SliderProgressBar />
 
-                <SliderTwo />
+                <section className="section-four">
+                    <SliderTwo />
+                    <IconBox />
+                </section>
 
                 <MyBanner />
 

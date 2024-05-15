@@ -25,13 +25,13 @@ const Header = () => {
                             <NavLink to={`/uberuns`}>Über uns</NavLink>
                         </li>
                         <li>
-                            <NavLink href={'/referenzen'}>Referenzen</NavLink>
+                            <NavLink to={'/referenzen'}>Referenzen</NavLink>
                         </li>
                         <li>
-                            <NavLink href={`#`}>Verpachtung</NavLink>
+                            <NavLink to={`#`}>Verpachtung</NavLink>
                         </li>
                         <li>
-                            <NavLink href={`#`}>PV-Investment</NavLink>
+                            <NavLink to={`#`}>PV-Investment</NavLink>
                         </li>
                         <li>
                             <NavLink to={`/karriere`}>Karriere</NavLink>

@@ -198,6 +198,13 @@
     margin-top: 5rem;
 }
 
+.uberuns .sec-three-txt-wrapper *{
+    color: var(--white);
+}
+.uberuns .sec-three-txt-wrapper .btn-nivoma-yellow{
+    color: var(--primary);
+}
+
 @media (max-width: 992.98px) {
 
     .uber-sec-four-gallery-wrapper {

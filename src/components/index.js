@@ -13,5 +13,6 @@ import MyBanner from "./MyBanner";
 import Referenzen from "./Pages/Referenzen";
 import Karriere from "./Pages/Karriere";
 import Karriereinsight from "./Pages/Karriereinsight";
+import IconBox from "./IconBox";
 
-export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen }
+export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen, IconBox }

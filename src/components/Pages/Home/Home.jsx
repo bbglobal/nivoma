@@ -16,7 +16,7 @@ import { Container, Row, Col } from "react-bootstrap"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Grid, Pagination, Navigation, Autoplay } from 'swiper/modules';
-import {SliderProgressBar, SliderTwo, MyAccording, MyBanner} from '../../../components'
+import { SliderProgressBar, SliderTwo, MyAccording, MyBanner, IconBox } from '../../../components'
 
 const Home = () => {
 
@@ -87,7 +87,10 @@ const Home = () => {
 
                 <SliderProgressBar />
 
-                <SliderTwo />
+                <section className="section-four">
+                        <SliderTwo />
+                        <IconBox />
+                </section>
 
                 <section className="section-five">
 
