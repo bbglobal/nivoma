@@ -12,7 +12,7 @@ import './style.css'
 
 const Freiflöche = () => {
     return (
-        <main className="verpachtung">
+        <main className="freiflöche">
             <Hero
                 bgColor="bg-sec"
 
