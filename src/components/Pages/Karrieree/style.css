@@ -1,0 +1,109 @@
+.karr-sec-hero * {
+    color: var(--black);
+}
+
+.karr-hero-img-wrapper {
+    position: relative;
+}
+
+.karr-hero-img-wrapper img {
+    max-width: 100%;
+    position: relative;
+    top: -18rem;
+}
+
+.kar-sec-two-wrapper h2 {
+    color: var(--black);
+    font-size: clamp(1.5rem, -1.6641rem + 10.5469vw, 4.875rem);
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.kar-sec-two-wrapper img {
+    max-width: 100%;
+    position: relative;
+    top: -5rem;
+    z-index: 0;
+}
+
+.karrieree .divider {
+    width: 92px;
+    height: 4px;
+    background: #544cf9
+}
+
+.karrieree .btn-nivoma {
+    display: none !important;
+}
+
+.karr-banner-sec {
+    background: var(--secondary);
+    height: 455.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.karr-banner-sec * {
+    color: var(--primary);
+}
+
+.karr-bullet-wrapper {
+    height: 335.8px;
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+
+.karr-bullet-wrapper h4{
+    padding: 0;
+    color: var(--primary);
+    font-size: clamp(1.625rem, 1.332rem + 0.9766vw, 1.9375rem);
+    font-weight: normal;
+    font-family: "Nivoma Just Sans", sans-serif;
+}
+
+.bottom-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bottom-wrapper p{
+    margin-bottom: 0;
+}
+
+.more-info-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.more-info {
+    background: var(--offWhite);
+    color: var(--primary);
+    border-radius: 60px;
+    padding: 1.5rem 3rem;
+    border: none;
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1720px !important;
+    }
+}

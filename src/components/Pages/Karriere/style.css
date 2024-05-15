@@ -1,16 +1,23 @@
-#karriere h1 {
+.karriere h1 {
+  height: 311px;
   text-align: center;
-  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary);
+  color: var(--primary);
   color: #000;
-  padding: 5rem 0;
+}
+.karriere h3 {
+  font-size: 34px;
+}
+.karriere h4 {
+  font-size: 47px;
+  padding-left: 0;
 }
 
 .section-two {
   padding-top: 5rem !important;
-}
-
-.karriere-three {
-  padding: 0 3rem;
 }
 
 .karriere-three p {
@@ -19,4 +26,17 @@
 
 h4 {
   padding: 1.5rem;
+}
+
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1720px !important;
+  }
 }

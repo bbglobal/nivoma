@@ -1,0 +1,27 @@
+
+.hc-txt-wrapper *{
+    color: var(--white);
+}
+.hc-txt-wrapper {
+    display: flex;
+    padding: calc(10vh + 1rem) 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    height: clamp(18rem, -16.8633rem + 116.2109vw, 55.1875rem);
+}
+
+.bg-pr {
+    background: var(--primary);
+}
+
+.bg-sec {
+    background: var(--secondary)
+}
+
+.hc-video-wrapper video {
+    width: 100%;
+    padding: 0 1.5rem;
+    position: absolute;
+    top: clamp(-0.375rem, 27.3984rem + -92.5781vw, -30rem);
+    top: 30rem;
+}

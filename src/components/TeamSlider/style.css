@@ -1,0 +1,51 @@
+.one {
+    background-image: url("../../components/Pages/Home/img/prof1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.two {
+    background-image: url("../../components/Pages/Home/img/prof2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.sec-six-tes-wrapper {
+    background: rgba(237, 237, 237, 0.37);
+    height: 618px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sec-six-tes-footer {
+    background: var(--offWhite);
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.sec-two-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-two-img-wrapper img {
+    width: 100%;
+}
+
+.sec-two-txt-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.sec-two-txt-wrapper h2, .sec-two-txt-wrapper p, .sec-two-txt-wrapper li{
+    color: var(--black);
+}

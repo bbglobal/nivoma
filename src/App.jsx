@@ -10,7 +10,10 @@ import {
   Karriere,
   Karriereinsight,
   Referenzen,
-  Karrieree
+  Karrieree,
+  AGB,
+  Verpachtung,
+  Freiflöche
 } from "./components";
 import { Routes, Route } from "react-router-dom";
 import 'swiper/css/pagination';
@@ -36,6 +39,9 @@ function App() {
         <Route path="/karrieree" element={<Karrieree />}></Route>
         <Route path="/karriere" element={<Karriere />}></Route>
         <Route path="/karriere-insight" element={<Karriereinsight />}></Route>
+        <Route path="/agb" element={<AGB />}></Route>
+        <Route path="/verpachtung" element={<Verpachtung />}></Route>
+        <Route path="/freiflöche" element={<Freiflöche />}></Route>
       </Routes>
 
       <Footer />

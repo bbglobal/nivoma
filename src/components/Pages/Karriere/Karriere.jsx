@@ -1,19 +1,21 @@
 import { Container } from "react-bootstrap";
 import "./style.css";
-import { SliderTwo } from "../../../components";
+import { SliderTwo, IconBox } from "../../../components";
 
 const Karriere = () => {
   return (
-    <main id="karriere">
+    <main className="karriere">
       <h1>Auf in deine neue Zukunft!</h1>
 
-      <section className="section-two karriere-three">
-        <h2>Online Marketing Manager/-in - Vollzeit (m/w/d)</h2>
-        <h3>Im Bereich: Neukunden, Social-Media</h3>
+      <section className="section-two karriere-three py-5">
+        <Container>
+          <h2>Online Marketing Manager/-in - Vollzeit (m/w/d)</h2>
+          <h3>Im Bereich: Neukunden, Social-Media</h3>
+        </Container>
       </section>
 
       <section className="karriere-three">
-        <Container fluid>
+        <Container>
           <h4>Beschreibung</h4>
           <p>
             Nivoma sucht nach talentierten Solarenergieberatern (m/w/d), die
@@ -32,23 +34,21 @@ const Karriere = () => {
         </Container>
       </section>
 
-      <Container fluid>
+      <Container>
         <section className="karriere-three">
-          <div>
-            <h4>Anforderungen</h4>
-            <p>
-              - Abgeschlossene Ausbildung oder Studium im Bereich erneuerbare
-              Energien, Umweltwissenschaften, Technik oder ähnliches <br />-
-              Erfahrung im Bereich Solarenergie oder erneuerbare Energien von
-              Vorteil <br />- Verhandlungsgeschick und Kommunikationsfähigkeit{" "}
-              <br />- Eigeninitiative und selbstständige Arbeitsweise
-            </p>
-          </div>
+          <h4>Anforderungen</h4>
+          <p>
+            - Abgeschlossene Ausbildung oder Studium im Bereich erneuerbare
+            Energien, Umweltwissenschaften, Technik oder ähnliches <br />-
+            Erfahrung im Bereich Solarenergie oder erneuerbare Energien von
+            Vorteil <br />- Verhandlungsgeschick und Kommunikationsfähigkeit{" "}
+            <br />- Eigeninitiative und selbstständige Arbeitsweise
+          </p>
         </section>
       </Container>
 
       <section className="karriere-three">
-        <Container fluid>
+        <Container>
           <div>
             <h4>Wir bieten</h4>
             <p>
@@ -58,11 +58,15 @@ const Karriere = () => {
               <br />- Ein motiviertes und dynamisches Team
             </p>
           </div>
+
+          <button className="btn-nivoma d-block mt-5 ms-3">Jetzt bewerben</button>
         </Container>
-        <button className="btn-nivoma d-block">Jetzt bewerben</button>
       </section>
 
-      <SliderTwo />
+      <section className="section-four">
+        <SliderTwo />
+        <IconBox />
+      </section>
     </main>
   );
 };

@@ -11,7 +11,7 @@ const Karriereinsight = () => {
       <section className="kar-sec-hero">
         <Container className="karriereinsight-container">
           <Row>
-            <Col xs={12} sm={12} md={12} lg={6} style={{margin: "auto"}}>
+            <Col xs={12} sm={12} md={12} lg={6} style={{ margin: "auto" }}>
               <p className="pb-5">Beschwerdenmanagement</p>
               <h1>Ihre Zufriedenheit <br /> ist uns Wichtig</h1>
               <p>

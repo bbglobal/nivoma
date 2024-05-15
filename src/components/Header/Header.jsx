@@ -28,7 +28,7 @@ const Header = () => {
                             <NavLink to={'/referenzen'}>Referenzen</NavLink>
                         </li>
                         <li>
-                            <NavLink to={`#`}>Verpachtung</NavLink>
+                            <NavLink to={`/verpachtung`}>Verpachtung</NavLink>
                         </li>
                         <li>
                             <NavLink to={`#`}>PV-Investment</NavLink>

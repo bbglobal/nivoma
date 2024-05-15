@@ -85,67 +85,6 @@
     margin: 1rem 0;
 }
 
-.section-five {
-    background: var(--primary);
-}
-
-.divider {
-    width: 106px;
-    height: 4px;
-    background: var(--white);
-}
-
-.sec-five-txt-wrapper {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1.5rem;
-    color: var(--white);
-    margin: auto;
-    height: 100%;
-}
-
-.sec-five-bg-img {
-    width: clamp(5rem, -1.8423rem + 11.036vw, 11.125rem);
-    transform: rotate(180deg);
-    position: absolute;
-    right: 0;
-    top: 1rem;
-}
-
-.sec-five-img-wrapper {
-    background-image: url("../Home/img/review-girl.jpg");
-    height: 991px;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.sec-five-box-wrapper {
-    background: var(--white);
-    border-radius: 10px;
-    padding: 1rem;
-    height: 220px;
-}
-
-.sec-five-box-wrapper p{
-    font-size: 16px;
-}
-
-.mySwiperReviews {
-    background: linear-gradient(180deg, rgba(25, 61, 56, 0.00) 0%, #193D38 100%);
-    padding: 2rem 0rem !important;
-}
-
-.sec-five-box-wrapper p {
-    color: var(--black);
-}
-
 .btn-outline {
 
     padding: 0 1rem;
@@ -181,33 +120,7 @@
     padding: 0 calc(10vw + 1rem) !important;
 } */
 
-.one {
-    background-image: url("../Home/img/prof2.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
 
-.two {
-    background-image: url("../Home/img/prof1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.sec-six-tes-wrapper {
-    background: rgba(237, 237, 237, 0.37);
-    height: 618px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.sec-six-tes-footer {
-    background: var(--offWhite);
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-}
 @media (max-width: 1300.98px) {
     .hero-wrapper {
         height: 100%;

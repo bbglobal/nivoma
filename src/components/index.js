@@ -15,5 +15,12 @@ import Karriere from "./Pages/Karriere";
 import Karriereinsight from "./Pages/Karriereinsight";
 import IconBox from "./IconBox";
 import Karrieree from "./Pages/Karrieree";
+import AGB from "./Pages/AGB";
+import Verpachtung from "./Pages/Verpachtung";
+import Hero from "./Hero";
+import TeamSlider from "./TeamSlider";
+import Testimonial from "./Testimonial";
+import Connector from "./Connector";
+import Freiflöche from "./Pages/Freiflöche";
 
-export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen, IconBox, Karrieree }
+export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen, IconBox, Karrieree, AGB, Verpachtung, Hero, TeamSlider, Testimonial, Connector, Freiflöche }
