@@ -19,6 +19,59 @@
     flex-direction: column;
 }
 
-.conn-sec-wrapper h2{
+.conn-sec-wrapper h2 {
     color: var(--primary);
+}
+
+.connector {
+    position: absolute;
+    width: 269px;
+}
+
+.con-one {
+    top: 8rem;
+    left: 27rem;
+}
+
+.con-two {
+    top: 8rem;
+    right: 27rem;
+}
+
+.con-three {
+    top: 43rem;
+    left: 27rem;
+}
+
+.con-four {
+    top: 43rem;
+    right: 27rem;
+}
+
+.con-five {
+    bottom: 28rem;
+    left: 27rem;
+}
+
+.con-six {
+    bottom: 28rem;
+    right: 27rem;
+}
+
+.con-seven {
+    top: 30rem;
+    right: 10rem;
+    height: 100px;
+}
+
+.con-eight {
+    bottom: 35rem;
+    left: 10rem;
+    height: 100px;
+}
+
+@media (max-width: 991.98px) {
+    .connector {
+        display: none;
+    }
 }

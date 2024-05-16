@@ -24,7 +24,7 @@ const Connector = () => {
                     <p className="text-center">en aufgeführte Liste lediglich eine grobe Übersicht über den Prozess der Freiflächenverpachtung für Solaranlagen darstellt. Es gibt zahlreiche kleine Schritte und Details, die in diesem Überblick nicht explizit aufgefühBitte beachten Sie, dass die obrt sind. Doch seien Sie versichert: Wir kümmern uns um jeden einzelnen dieser Schritte, sodass Sie sich entspannt zurücklehnen können.</p>
                 </div>
 
-                <Row className='postion-relative'>
+                <Row style={{position: "relative"}}>
 
                     <Col xs={12} sm={12} md={12} lg={4} style={{ margin: "5rem 0 " }}>
                         <div className="conn-sec-wrapper">
@@ -39,6 +39,8 @@ const Connector = () => {
                         </div>
                     </Col>
 
+                    <img src={connector} alt="image" className='connector con-one'/>
+
                     <Col xs={12} sm={12} md={12} lg={4} style={{ margin: "5rem 0 " }}>
                         <div className="conn-sec-wrapper">
                             <div className="con-icon-wrapper">
@@ -51,6 +53,8 @@ const Connector = () => {
                             </p>
                         </div>
                     </Col>
+
+                    <img src={connector} alt="image" className='connector con-two'/>
 
                     <Col xs={12} sm={12} md={12} lg={4} style={{ margin: "5rem 0 " }}>
                         <div className="conn-sec-wrapper">
@@ -65,6 +69,9 @@ const Connector = () => {
                         </div>
                     </Col>
 
+                    <img src={connector} alt="image" className='connector con-three'/>
+                    <img src={connect} alt="image" className='connector con-seven'/>
+
                     <Col xs={12} sm={12} md={12} lg={4} style={{ margin: "5rem 0 " }}>
                         <div className="conn-sec-wrapper">
                             <div className="con-icon-wrapper">
@@ -78,6 +85,8 @@ const Connector = () => {
                         </div>
                     </Col>
 
+                    <img src={connector} alt="image" className='connector con-four'/>
+
                     <Col xs={12} sm={12} md={12} lg={4} style={{ margin: "5rem 0 " }}>
                         <div className="conn-sec-wrapper">
                             <div className="con-icon-wrapper">
@@ -90,6 +99,8 @@ const Connector = () => {
                             </p>
                         </div>
                     </Col>
+                    
+                    <img src={connector} alt="image" className='connector con-five'/>
 
                     <Col xs={12} sm={12} md={12} lg={4} style={{ margin: "5rem 0 " }}>
                         <div className="conn-sec-wrapper">
@@ -103,6 +114,9 @@ const Connector = () => {
                             </p>
                         </div>
                     </Col>
+                    
+                    <img src={connector} alt="image" className='connector con-six'/>
+                    <img src={connect} alt="image" className='connector con-eight'/>
 
                     <Col xs={12} sm={12} md={12} lg={4} style={{ margin: "5rem 0 " }}>
                         <div className="conn-sec-wrapper">

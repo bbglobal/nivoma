@@ -9,6 +9,8 @@ import poster from '../Uberuns/img/poster.webp'
 import uberVedio from '../Home/img/hero.mp4'
 import { Connector, Hero, SliderProgressBar, SliderTwo, TeamSlider, Testimonial } from '../../../components'
 import './style.css'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
 
 const Verpachtung = () => {
   return (
@@ -121,7 +123,7 @@ const Verpachtung = () => {
           <TeamSlider />
         </section>
 
-        <Testimonial />
+        <section className='ver-sec-six-wrapper'></section>
 
         <Connector />
 
