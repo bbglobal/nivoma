@@ -22,5 +22,6 @@ import TeamSlider from "./TeamSlider";
 import Testimonial from "./Testimonial";
 import Connector from "./Connector";
 import Freiflöche from "./Pages/Freiflöche";
+import Investieren from "./Pages/Investieren";
 
-export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen, IconBox, Karrieree, AGB, Verpachtung, Hero, TeamSlider, Testimonial, Connector, Freiflöche }
+export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen, IconBox, Karrieree, AGB, Verpachtung, Hero, TeamSlider, Testimonial, Connector, Freiflöche , Investieren }

@@ -13,7 +13,8 @@ import {
   Karrieree,
   AGB,
   Verpachtung,
-  Freiflöche
+  Freiflöche,
+  Investieren,
 } from "./components";
 import { Routes, Route } from "react-router-dom";
 import 'swiper/css/pagination';
@@ -42,6 +43,7 @@ function App() {
         <Route path="/agb" element={<AGB />}></Route>
         <Route path="/verpachtung" element={<Verpachtung />}></Route>
         <Route path="/freiflöche" element={<Freiflöche />}></Route>
+        <Route path="/investieren" element={<Investieren />}></Route>
       </Routes>
 
       <Footer />
