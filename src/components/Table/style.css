@@ -1,0 +1,53 @@
+.ref-table {
+    width: 100%;
+}
+
+.ref-body::-webkit-scrollbar {
+    width: 12px;
+}
+
+.ref-body::-webkit-scrollbar-track {
+    background: var(--offWhite);
+}
+
+.ref-body::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 6px;
+    cursor: grab;
+}
+
+.ref-thead {
+    height: 79px;
+    background: var(--offWhite);
+    color: #84818A;
+}
+
+.ref-thead tr {
+    display: table;
+    width: 100%;
+}
+
+.ref-thead th,
+.ref-body td {
+    padding: 1.5rem;
+}
+
+.ref-body {
+    display: block;
+    max-height: 600px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.ref-body tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    color: var(--primary);
+}
+
+.last {
+    background: #F4F7F7;
+    border-radius: 60px;
+    text-align: center;
+}

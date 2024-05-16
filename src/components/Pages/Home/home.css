@@ -153,6 +153,6 @@
     }
 
     .sec-five-img-wrapper {
-        height: 591px;
+        height: 591px !important;
     }
 }

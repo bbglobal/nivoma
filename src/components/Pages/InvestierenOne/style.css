@@ -1,0 +1,46 @@
+.inver-one-hero-sec {
+    height: 90dvh;
+    background-image: url("./img/solar-power-plant-20.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.inver-one-sec-two {
+    padding: 5rem 0;
+}
+
+.inver-one-txt-wrapper * {
+    color: var(--black);
+}
+
+.arrow {
+    background-image: url("./img/download-square-svgr.svg");
+    width: 37.5px;
+    height: 37.5px;
+    display: inline-block;
+}
+
+.inver-one-sec-two .btn-nivoma {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    color: var(--white);
+}
+
+.inver-one-sec-two .btn-nivoma:hover {
+    color: var(--white);
+    background: var(--primary);
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1720px !important;
+    }
+}
