@@ -28,5 +28,7 @@ import Bullets from "./Bullets";
 import Table from "./Table";
 import Gallery from "./Gallery";
 import InvestierenOne from "./Pages/InvestierenOne";
+import Immer from "./Pages/Immer"
+import BlogSlider from "./BlogSlider";
 
-export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen, IconBox, Karrieree, AGB, Verpachtung, Hero, TeamSlider, Testimonial, Connector, Freiflöche, SlideTwo, Investieren, Bullets, Table, Gallery, InvestierenOne }
+export { Header, Footer, Impressum, DataProtection, Home, Wissen, Datenschutzerklärung, Uberuns, SliderProgressBar, SliderTwo, MyAccording, MyBanner, Karriere, Karriereinsight, Referenzen, IconBox, Karrieree, AGB, Verpachtung, Hero, TeamSlider, Testimonial, Connector, Freiflöche, SlideTwo, Investieren, Bullets, Table, Gallery, InvestierenOne, Immer, BlogSlider }

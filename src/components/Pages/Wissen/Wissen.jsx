@@ -1,13 +1,8 @@
-import { ImImages } from "react-icons/im";
 import block from "./images/Block.jpg";
 import eye from "../../assets/icons/eye.svg";
 import thumb from "../../assets/icons/thumb.svg";
-import blogTwo from "./images/blog-1.jpg";
-import blogOne from "./images/blog-2.jpg";
-import blogThree from "./images/blog-3.jpg";
-import { Container, Row, Col, Accordion } from "react-bootstrap";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Grid, Pagination, Navigation, Autoplay } from 'swiper/modules';
+import { Container, Row, Col, } from "react-bootstrap";
+import {BlogSlider, MyAccording, MyBanner} from "../../../components";
 import "./wissen.css";
 
 const Wissen = () => {
@@ -109,187 +104,11 @@ const Wissen = () => {
           </Container>
         </section>
 
-        <section className="sec-four">
-          <Container fluid>
-            <Row>
-              <Col>
+       <BlogSlider />
 
-                <div className="wissen-sec-four-head-wrapper">
-                  <h2>Weitere Neuigkeiten</h2>
-                </div>
-                <Swiper
-                  grabCursor={true}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  breakpoints={{
-                    380: {
-                      slidesPerView: 1,
-                      spaceBetween: 10,
-                    },
-                    992: {
-                      slidesPerView: 2,
-                      spaceBetween: 10,
-                    },
-                    1600: {
-                      slidesPerView: 3,
-                      spaceBetween: 30,
-                    },
-                  }}
-                  modules={[Pagination]}
-                  className="mySwiper">
+        <MyBanner />
 
-                  <SwiperSlide>
-                    <div className="wissen-sec-four-slide-wrapper">
-                      <div className="wissen-sec-four-img-wrapper">
-                        <img src={blogOne} alt="image" />
-                      </div>
-                      <div className="wissen-sec-four-txt-head">
-                        <p>Projekt - 12 August 2021</p>
-                      </div>
-                      <div className="wissen-sec-four-txt-body">
-                        <p>Strahlende Neuigkeiten: Die Zukunft der <br /> Solarenergie enthüllt!</p>
-                      </div>
-                      <div className="wissen-sec-four-txt-foot">
-                        <p>Artikel lesen</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="wissen-sec-four-slide-wrapper">
-                      <div className="wissen-sec-four-img-wrapper">
-                        <img src={blogTwo} alt="image" />
-                      </div>
-                      <div className="wissen-sec-four-txt-head">
-                        <p>Projekt - 12 August 2021</p>
-                      </div>
-                      <div className="wissen-sec-four-txt-body">
-                        <p>Strahlende Neuigkeiten: Die Zukunft der <br /> Solarenergie enthüllt!</p>
-                      </div>
-                      <div className="wissen-sec-four-txt-foot">
-                        <p>Artikel lesen</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="wissen-sec-four-slide-wrapper">
-                      <div className="wissen-sec-four-img-wrapper">
-                        <img src={blogThree} alt="image" />
-                      </div>
-                      <div className="wissen-sec-four-txt-head">
-                        <p>Projekt - 12 August 2021</p>
-                      </div>
-                      <div className="wissen-sec-four-txt-body">
-                        <p>Strahlende Neuigkeiten: Die Zukunft der <br /> Solarenergie enthüllt!</p>
-                      </div>
-                      <div className="wissen-sec-four-txt-foot">
-                        <p>Artikel lesen</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="wissen-sec-four-slide-wrapper">
-                      <div className="wissen-sec-four-img-wrapper">
-                        <img src={blogOne} alt="image" />
-                      </div>
-                      <div className="wissen-sec-four-txt-head">
-                        <p>Projekt - 12 August 2021</p>
-                      </div>
-                      <div className="wissen-sec-four-txt-body">
-                        <p>Strahlende Neuigkeiten: Die Zukunft der <br /> Solarenergie enthüllt!</p>
-                      </div>
-                      <div className="wissen-sec-four-txt-foot">
-                        <p>Artikel lesen</p>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-
-                </Swiper>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-
-        <section className="section-seven">
-          <h2>Jetzt vergleichen & sparen</h2>
-          <p>
-            Vereinbaren Sie noch heute ein unverbindliches Beratungsgespräch,
-            damit <br />
-            wir Ihre Fläche genau analysieren können.
-          </p>
-          <button className="btn-nivoma d-block">Dachfläche verpachten</button>
-        </section>
-
-
-        <section className="section-eight">
-          <Container fluid>
-            <Row>
-              <Col xs="12" sm="12" md="12" lg="4">
-                <div className="sec-eight-txt-wrapper">
-                  <h3 className='my-5'>Häufig gestellte Fragen</h3>
-
-                  <h4 className='active my-3'>Verpachten</h4>
-                  <h4 className='my-3'>Investieren</h4>
-                  <h4 className='my-3'>Projekte</h4>
-                  <h4 className='my-3'>Technologie</h4>
-                  <h4 className='my-3'>Umwelt</h4>
-                </div>
-              </Col>
-
-              <Col xs="12" sm="12" md="12" lg="8">
-                <div className="sec-eight-acc-wrapper">
-                  <Accordion defaultActiveKey="0">
-                    <Accordion.Item eventKey="0">
-                      <Accordion.Header>Welche Vorteile bietet die Solarverpachtung mit NIVOMA?</Accordion.Header>
-                      <Accordion.Body>
-                        Durch die Solarverpachtung mit NIVOMA können Grundstückseigentümer zusätzliche Einnahmen <br />
-                        erzielen, ohne Investitionskosten oder laufende Gebühren tragen zu müssen. Unsere Dienstleistungen <br />
-                        sind für Sie als Grundstückseigentümer kostenfrei, sodass Sie ohne finanzielles Risiko von den Vorteilen <br />
-                        der Solarenergie profitieren können.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="1">
-                      <Accordion.Header>Wie funktioniert die Solarverpachtung mit NIVOMA?</Accordion.Header>
-                      <Accordion.Body>
-                        Durch die Solarverpachtung mit NIVOMA können Grundstückseigentümer zusätzliche Einnahmen <br />
-                        erzielen, ohne Investitionskosten oder laufende Gebühren tragen zu müssen. Unsere Dienstleistungen <br />
-                        sind für Sie als Grundstückseigentümer kostenfrei, sodass Sie ohne finanzielles Risiko von den Vorteilen <br />
-                        der Solarenergie profitieren können.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="2">
-                      <Accordion.Header>Welche Voraussetzungen muss mein Grundstück erfüllen?</Accordion.Header>
-                      <Accordion.Body>
-                        Durch die Solarverpachtung mit NIVOMA können Grundstückseigentümer zusätzliche Einnahmen <br />
-                        erzielen, ohne Investitionskosten oder laufende Gebühren tragen zu müssen. Unsere Dienstleistungen <br />
-                        sind für Sie als Grundstückseigentümer kostenfrei, sodass Sie ohne finanzielles Risiko von den Vorteilen <br />
-                        der Solarenergie profitieren können.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="3">
-                      <Accordion.Header>Welche Rolle spielt NIVOMA bei der Solarverpachtung?</Accordion.Header>
-                      <Accordion.Body>
-                        Durch die Solarverpachtung mit NIVOMA können Grundstückseigentümer zusätzliche Einnahmen <br />
-                        erzielen, ohne Investitionskosten oder laufende Gebühren tragen zu müssen. Unsere Dienstleistungen <br />
-                        sind für Sie als Grundstückseigentümer kostenfrei, sodass Sie ohne finanzielles Risiko von den Vorteilen <br />
-                        der Solarenergie profitieren können.
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  </Accordion>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-
-
-
-
-
-
+        <MyAccording />
 
       </main>
     </>

@@ -46,37 +46,6 @@
   color: var(--black);
 }
 
-.sec-four {
-  padding: 5rem;
-}
-
-.wissen-sec-four-head-wrapper h2{
-  font-family: Nivoma Nromal, sans-serif;
-  font-size: clamp(1rem, -1.2656rem + 7.25vw, 2.8125rem);
-  color: var(--black);
-  margin-bottom: 2rem;
-}
-
-.wissen-sec-four-slide-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.wissen-sec-four-slide-wrapper p{
-  font-family: Nivoma Just Regular;
-  font-size: clamp(1rem, 0.4531rem + 1.75vw, 1.4375rem);
-}
-
-.wissen-sec-four-img-wrapper img {
-  width: 100%;
-}
-
-.wissen-sec-four-txt-body p {
-  color: #000;
-}
-
 .wissen .section-seven {
   background: var(--primary);
 }

@@ -2,7 +2,7 @@ import "./immer.css";
 import heroVideo from "../../Pages/Home/img/hero.mp4";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Rectangle from "../../path/to/Rectangle.jpg"; // Import the image
+import Rectangle from "./image/Rectangle.jpg";
 
 const Immer = () => {
   return (
